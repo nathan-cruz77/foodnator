@@ -4,7 +4,7 @@ const _apijs = _apimock ? 'apimock.js' : 'api.js';
 
 module.exports = {
   head: {
-    title: 'frontend',
+    title: 'Can\'t choose where to eat? We got you covered! - Foodnator',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -17,6 +17,7 @@ module.exports = {
   },
   css: [
     { src: '~/assets/css/main.styl', lang: 'styl' },
+    { src: '~/assets/css/main.sass', lang: 'sass' },
   ],
   loading: { color: '#3B8070' },
   router: {

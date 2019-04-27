@@ -1,7 +1,8 @@
 <template>
-  <v-footer color="blue-grey" class="white--text" app>
-    <v-spacer></v-spacer>
-    <span>&copy; {{ year }}</span>
+  <v-footer color="red lighten-2" class="white--text" app>
+    <v-layout justify-center row wrap>
+      <span>&copy; {{ year }} - Foodnator</span>
+    </v-layout>
   </v-footer>
 </template>
 
