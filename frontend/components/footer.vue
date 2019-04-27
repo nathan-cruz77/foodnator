@@ -1,13 +1,15 @@
 <template>
   <v-footer color="blue-grey" class="white--text" app>
-    <span>Vuetify</span>
     <v-spacer></v-spacer>
-    <span>&copy; 2017</span>
+    <span>&copy; {{ year }}</span>
   </v-footer>
 </template>
 
 <script>
   export default {
-    props: ['state']
+    props: ['state'],
+    computed: {
+      year: () => (new Date()).getFullYear(),
+    }
   }
 </script>
