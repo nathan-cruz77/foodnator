@@ -1,6 +1,7 @@
 <template>
   <v-app id="inspire">
-    <toolbar :state="layout"/>
+    <sidenav-left/>
+    <toolbar/>
     <v-content>
       <v-container>
         <nuxt></nuxt>
@@ -11,23 +12,15 @@
 </template>
 
 <script>
-import toolbar from '~/components/toolbar.vue'
-import footer from '~/components/footer.vue'
+import toolbar from '~/components/toolbar'
+import footer from '~/components/footer'
+import SidenavLeft from '~/components/sidenav-left'
 
 export default {
   components: {
+    SidenavLeft,
     toolbar,
     leFooter: footer
   },
-  data: () => ({
-    layout: {
-      drawer: true,
-    },
-  }),
-  computed: {
-    snack () {
-      return this.$store.getters.snack
-    }
-  }
 }
 </script>
