@@ -1,9 +1,9 @@
 <template>
-  <v-toolbar color="red lighten-2" dark fixed app>
-    <v-toolbar-side-icon @click.stop="state.drawer = !state.drawer"></v-toolbar-side-icon>
+  <v-toolbar color="white red--text" light fixed app>
+    <v-toolbar-side-icon @click.stop="toggleFilters()"></v-toolbar-side-icon>
     <v-toolbar-title>Foodnator</v-toolbar-title>
-    <v-spacer></v-spacer>
-    <v-btn v-if="!logged_user" flat dark ripple class="ma-0 ml-5"  @click="open_login_dialog($event)">Login</v-btn>
+    <v-spacer/>
+    <v-btn v-if="!logged_user" flat ripple class="ma-0 ml-5"  @click.stop="openLoginDialog($event)">Login</v-btn>
     <v-menu v-if="logged_user" offset-y>
       <v-btn icon slot="activator" class="ma-0 ml-5">
         <v-avatar size="36px">
@@ -39,35 +39,30 @@
         </v-list>
       </v-card>
     </v-menu>
-    <v-toolbar-side-icon @click.stop="state.drawerRight = !state.drawerRight"></v-toolbar-side-icon>
     <login-dialog ref="login_dialog"/>
   </v-toolbar>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
-import loginDialog from '~/components/login-dialog.vue'
-import Snacks from '~/helpers/Snacks.js'
+import { mapGetters, mapActions } from 'vuex'
+import loginDialog from '~/components/login-dialog'
 import AppApi from '~apijs'
 
 export default {
   components: {
-    loginDialog
+    loginDialog,
   },
   computed: {
     ...mapGetters(['logged_user']),
   },
-  props: ['state'],
   methods: {
-    open_login_dialog (evt) {
+    ...mapActions(['toggleFilters']),
+    openLoginDialog (evt) {
       this.$refs.login_dialog.open();
       evt.stopPropagation();
     },
     logout(){
-      AppApi.logout().then(()=>{
-        this.$store.commit('SET_LOGGED_USER', null);
-        Snacks.show(this.$store, {text: 'Até logo!'})
-      });
+      AppApi.logout().then(() => this.$store.commit('SET_LOGGED_USER', null));
     }
   }
 }
