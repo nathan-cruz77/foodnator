@@ -1,9 +1,10 @@
 <template>
   <v-toolbar color="white red--text" light fixed app>
-    <v-toolbar-side-icon @click.stop="toggleFilters()"></v-toolbar-side-icon>
+    <v-toolbar-side-icon></v-toolbar-side-icon>
     <v-toolbar-title>Foodnator</v-toolbar-title>
     <v-spacer/>
-    <v-btn v-if="!logged_user" flat ripple class="ma-0 ml-5"  @click.stop="openLoginDialog($event)">Login</v-btn>
+
+    <v-btn v-if="!logged_user" flat ripple class="ma-0 ml-5" @click.stop="openLoginDialog($event)">Login</v-btn>
     <v-menu v-if="logged_user" offset-y>
       <v-btn icon slot="activator" class="ma-0 ml-5">
         <v-avatar size="36px">
@@ -39,6 +40,9 @@
         </v-list>
       </v-card>
     </v-menu>
+    <v-btn @click.stop="toggleFilters()" icon>
+      <v-icon>settings</v-icon>
+    </v-btn>
     <login-dialog ref="login_dialog"/>
   </v-toolbar>
 </template>

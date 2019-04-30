@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer v-if="showFilters" fixed app>
+  <v-navigation-drawer v-if="showFilters" fixed right app>
     <v-list dense>
       <v-list-tile @click="toggleFilters()">
         <v-list-tile-action>
