@@ -18,6 +18,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    "vue/valid-v-for": "off"
+    "vue/valid-v-for": "off",
+    "vue/require-v-for-key": "off"
   }
 }
