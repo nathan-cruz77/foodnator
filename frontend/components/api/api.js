@@ -16,6 +16,9 @@ const api = {
   cuisines(){
     return get('/api/cuisines');
   },
+  updatePreferences(preferences){
+    return null;
+  }
 }
 export default api;
 

@@ -36,17 +36,10 @@ const api = {
     } : {authenticated: false});
   },
   cuisines(){
-    return mockasync([
-      'Lanches',
-      'Marmita',
-      'Vegetariana',
-      'Italiana',
-      'Vegana',
-      'Açaí',
-      'Cozinha Árabe',
-      'Cozinha Brasileira',
-      'Cafeteria',
-    ]);
+    return mockasync(['Lanches', 'Brasileira', 'Pizza']);
+  },
+  updatePreferences(preferences){
+    return mockasync({});
   },
 };
 

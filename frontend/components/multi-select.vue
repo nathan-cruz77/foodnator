@@ -1,7 +1,6 @@
 <template>
   <v-autocomplete
-    v-model="selected"
-    :disabled="isUpdating"
+    v-model="valueCopy"
     :items="options"
     :label="label"
     :allow-overflow="false"
@@ -9,8 +8,8 @@
     hide-no-data
     clearable
     chips
-    color="blue-grey lighten-2"
     multiple
+    color="blue-grey lighten-2"
     no-data-text="Carregando">
   </v-autocomplete>
 </template>
@@ -26,20 +25,26 @@ export default {
       type: String,
       required: true,
     },
+    value: {
+      type: Array,
+      required: true,
+    }
   },
 
+  // This copy is here to prevent Vue from complaining about v-autocomplete
+  // mutating a prop value.
   data: () => ({
-    selected: [],
-    autoUpdate: true,
-    isUpdating: false,
+    valueCopy: [],
   }),
 
+  mounted() {
+    this.valueCopy = [...this.value]
+  },
+
   watch: {
-    isUpdating (val) {
-      if (val) {
-        setTimeout(() => (this.isUpdating = false), 3000)
-      }
-    }
+    valueCopy() {
+      this.$emit('input', this.valueCopy)
+    },
   },
 }
 </script>

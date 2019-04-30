@@ -5,7 +5,14 @@ const store = () => new Vuex.Store({
   state: {
     logged_user: undefined,
     showFilters: false,
-    cuisines: []
+    cuisines: [],
+    preferences: {
+      price: 1,
+      freeDelivery: false,
+      selectedCuisines: [],
+      rejectedCuisines: [],
+      rating: 0,
+    },
   },
 
   actions: {
@@ -17,6 +24,14 @@ const store = () => new Vuex.Store({
       const { data } = await AppApi.cuisines()
       commit('setCuisines', data)
     },
+
+    updatePreferences({ commit, state }, preferences) {
+      commit('setPreferences', preferences)
+
+      if (state.logged_user) {
+        AppApi.update_preferences(preferences)
+      }
+    }
   },
 
   mutations: {
@@ -32,12 +47,15 @@ const store = () => new Vuex.Store({
     setCuisines(state, cuisines) {
       state.cuisines = cuisines
     },
+
+    setPreferences(state, preferences) {
+      state.preferences = preferences
+    },
   },
 
   getters: {
-    logged_user(state) {
-      return state.logged_user
-    },
+    logged_user: ({ logged_user }) => logged_user,
+    getPreferences: ({ preferences }) => preferences,
   },
 })
 
