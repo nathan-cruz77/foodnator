@@ -8,7 +8,7 @@
     <v-menu v-if="logged_user" offset-y>
       <v-btn icon slot="activator" class="ma-0 ml-5">
         <v-avatar size="36px">
-          <img src="https://graph.facebook.com/4/picture?width=300&height=300">
+          <img src="https://www.w3schools.com/w3css/img_avatar3.png">
         </v-avatar>
       </v-btn>
       <v-card class="no-padding">
@@ -16,7 +16,7 @@
           <v-list-tile avatar>
             <v-list-tile-avatar>
               <v-avatar>
-                <img src="https://graph.facebook.com/4/picture?width=300&height=300">
+                <img src="https://www.w3schools.com/w3css/img_avatar3.png">
               </v-avatar>
             </v-list-tile-avatar>
             <v-list-tile-content>
@@ -27,11 +27,6 @@
         </v-list>
         <v-divider></v-divider>
         <v-list>
-          <v-list-tile @click="switchMode()">
-            <v-list-tile-content>
-              <v-list-tile-title>Staff mode</v-list-tile-title>
-            </v-list-tile-content>
-          </v-list-tile>
           <v-list-tile @click="logout()">
             <v-list-tile-content>
               <v-list-tile-title>Log out</v-list-tile-title>
