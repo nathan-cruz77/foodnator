@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-var logged_user = null;
+var loggedUser = null;
 
 function mockasync (data) {
   return new Promise((resolve, reject) => {
@@ -11,7 +11,7 @@ function mockasync (data) {
 const api = {
   login(username, password){
     if(password){
-      logged_user = {
+      loggedUser = {
         username: username,
         first_name: 'Mark',
         last_name: 'Zuckerberg',
@@ -23,16 +23,16 @@ const api = {
         }
       };
     }
-    return mockasync(logged_user);
+    return mockasync(loggedUser);
   },
   logout(){
-    logged_user = null;
+    loggedUser = null;
     return mockasync({});
   },
   whoami(){
-    return mockasync(logged_user ? {
+    return mockasync(loggedUser ? {
       authenticated: true,
-      user: logged_user,
+      user: loggedUser,
     } : {authenticated: false});
   },
   cuisines(){

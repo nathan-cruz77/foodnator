@@ -1,23 +1,23 @@
 <template>
-  <v-navigation-drawer v-if="showFilters" fixed right app>
+  <v-navigation-drawer v-if="showPreferences" fixed right app>
     <v-list dense>
-      <v-list-tile @click="toggleFilters()">
+      <v-list-tile @click="toggleShowPreferences()">
         <v-list-tile-content>
           <v-list-tile-title>Preferences</v-list-tile-title>
         </v-list-tile-content>
         <v-list-tile-action>
-          <v-icon v-text="Hide">arrow_right_alt</v-icon>
+          <v-icon>arrow_right_alt</v-icon>
         </v-list-tile-action>
       </v-list-tile>
       <v-list-tile/>
 
       <v-list-tile>
-        <multi-select v-model="preferences.selectedCuisines" :options="cuisines" label="Prefered cuisines"/>
+        <multi-select v-model="preferences.selectedCuisines" :options.sync="cuisines" label="Prefered cuisines"/>
       </v-list-tile>
       <v-list-tile/>
 
       <v-list-tile>
-        <multi-select v-model="preferences.rejectedCuisines" :options="cuisines" label="Rejected cuisines"/>
+        <multi-select v-model="preferences.rejectedCuisines" :options.sync="cuisines" label="Rejected cuisines"/>
       </v-list-tile>
       <v-list-tile/>
 
@@ -54,30 +54,41 @@ import MultiSelect from '~/components/multi-select'
 
 export default {
   data: () => ({
-    preferences: {},
+    preferences: {
+      price: 1,
+      freeDelivery: false,
+      selectedCuisines: [],
+      rejectedCuisines: [],
+      rating: 0,
+    },
+    cuisines: [],
   }),
 
   components: {
     MultiSelect,
   },
 
-  mounted() {
-    this.preferences = { ...this.getPreferences() }
-    this.fetchCuisines()
+  async mounted() {
+    await this.fetchCuisines()
+    this.cuisines = [...this.availableCuisines]
   },
 
   watch: {
-    preferences() {
-      this.updatePreferences(this.preferences)
+    preferences: {
+      handler() {
+        this.updatePreferences({ ...this.preferences })
+      },
+      deep: true,
     },
   },
 
   computed: {
-    ...mapState(['showFilters', 'cuisines']),
+    ...mapState('user', { availableCuisines: 'cuisines' }),
+    ...mapState('toolbar', ['showPreferences']),
   },
   methods: {
-    ...mapActions(['toggleFilters', 'fetchCuisines', 'updatePreferences']),
-    ...mapGetters(['getPreferences']),
+    ...mapActions('toolbar', ['toggleShowPreferences']),
+    ...mapActions('user', ['fetchCuisines', 'updatePreferences']),
   },
 }
 </script>

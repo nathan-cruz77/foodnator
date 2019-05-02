@@ -6,7 +6,7 @@
           <v-container fluid>
             <v-text-field label="Username" required v-model="username"/>
             <v-text-field label="Password" type="password" required v-model="password" @keyup.enter="login()"/>
-            <small style="color: red;" v-if="error">Wrong user or password</small>
+            <small style="color: red" v-if="error">Wrong user or password</small>
           </v-container>
         </v-card-text>
         <v-btn class="blue--text darken-1" flat @click="close()">Cancel</v-btn>
@@ -16,43 +16,41 @@
 </template>
 
 <script>
-
 import AppApi from '~apijs'
+import { mapMutations } from 'vuex'
 
 export default {
-  data () {
-    console.log('data');
-    return {
-      visible: false,
-      loading: false,
-      username: '',
-      password: '',
-      error: false,
-    };
-  },
+  data: () => ({
+    visible: false,
+    loading: false,
+    username: '',
+    password: '',
+    error: false,
+  }),
+
   methods: {
+    ...mapMutations('user', ['setLoggedUser']),
     open(){
-      this.visible = true;
-      console.log('Open');
+      this.visible = true
     },
     close(){
-      this.visible = false;
-      console.log('Close');
+      this.visible = false
     },
-    login(){
-      this.loading = true;
-      this.error = false;
-      AppApi.login(this.username, this.password).then((result)=>{
-        var user = result.data;
-        if(user){
-          this.$store.commit('SET_LOGGED_USER', user);
-          this.visible = false;
-          console.log('logged')
-        } else {
-          this.error = true;
-        }
-        this.loading = false;
-      });
+    async login(){
+      this.loading = true
+      this.error = false
+
+      const { data } = await AppApi.login(this.username, this.password)
+      const user = data
+
+      if(user) {
+        this.setLoggedUser(user)
+        this.visible = false
+      } else {
+        this.error = true
+      }
+
+      this.loading = false
     },
   },
 }
