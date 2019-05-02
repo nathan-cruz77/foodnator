@@ -1,6 +1,6 @@
 <template>
   <v-toolbar color="white red--text" light fixed app>
-    <v-btn icon>
+    <v-btn icon v-if="loggedUser" @click="toggleGroups()">
       <v-icon>group</v-icon>
     </v-btn>
     <v-toolbar-title>Foodnator</v-toolbar-title>
@@ -58,7 +58,7 @@ export default {
     ...mapGetters('user', ['loggedUser']),
   },
   methods: {
-    ...mapActions('toolbar', ['toggleShowPreferences']),
+    ...mapActions('toolbar', ['toggleShowPreferences', 'toggleGroups']),
     ...mapMutations('user', ['setLoggedUser']),
     openLoginDialog (evt) {
       this.$refs.login_dialog.open();

@@ -1,5 +1,6 @@
 <template>
   <v-app id="inspire">
+    <groups/>
     <toolbar/>
     <v-content>
       <v-container>
@@ -15,9 +16,11 @@
 import toolbar from '~/components/toolbar'
 import footer from '~/components/footer'
 import Preferences from '~/components/preferences'
+import Groups from '~/components/groups'
 
 export default {
   components: {
+    Groups,
     Preferences,
     toolbar,
     leFooter: footer
