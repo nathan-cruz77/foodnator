@@ -2,12 +2,12 @@
   <v-navigation-drawer v-if="showFilters" fixed right app>
     <v-list dense>
       <v-list-tile @click="toggleFilters()">
-        <v-list-tile-action>
-          <v-icon>keyboard_backspace</v-icon>
-        </v-list-tile-action>
         <v-list-tile-content>
           <v-list-tile-title>Preferences</v-list-tile-title>
         </v-list-tile-content>
+        <v-list-tile-action>
+          <v-icon v-text="Hide">arrow_right_alt</v-icon>
+        </v-list-tile-action>
       </v-list-tile>
       <v-list-tile/>
 
