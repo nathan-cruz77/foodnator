@@ -11,6 +11,29 @@
         </v-list-tile-content>
       </v-list-tile>
       <v-list-tile/>
+
+      <v-item-group>
+        <v-container grid-list-md>
+          <v-layout wrap column>
+            <v-flex v-for="group in groups" :key="group.name" xs12 md4>
+              <v-item>
+                <v-card slot-scope="{ active, toggle }"
+                  @click="selectAndToggle(group, toggle)"
+                  :color="active ? 'red' : ''"
+                  hover
+                  class="d-flex align-center"
+                  height="60"
+                  width="100%">
+                  <div class="display-6 text-xs-center">
+                    {{ group.name }}
+                  </div>
+                </v-card>
+              </v-item>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </v-item-group>
+
     </v-list>
   </v-navigation-drawer>
 </template>
@@ -19,11 +42,20 @@
 import { mapActions, mapGetters } from 'vuex'
 
 export default {
+  mounted() {
+    this.fetchGroups()
+  },
   computed: {
     ...mapGetters('toolbar', ['showGroups']),
+    ...mapGetters('user', ['groups']),
   },
   methods: {
     ...mapActions('toolbar', ['toggleGroups']),
+    ...mapActions('user', ['fetchGroups', 'selectGroup']),
+    selectAndToggle(group, toggle) {
+      toggle()
+      this.selectGroup(group)
+    }
   },
 }
 </script>

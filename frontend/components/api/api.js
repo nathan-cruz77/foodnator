@@ -16,6 +16,9 @@ const api = {
   cuisines(){
     return get('/api/cuisines');
   },
+  groups(username) {
+    return get('/api/groups', { username });
+  },
   updatePreferences(preferences){
     return null;
   }

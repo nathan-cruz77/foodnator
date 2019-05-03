@@ -4,6 +4,8 @@ export const state = () => ({
   loggedUser: undefined,
   cuisines: [],
   preferences: {},
+  groups: [],
+  selectedGroup: null,
 })
 
 export const actions = {
@@ -11,13 +13,35 @@ export const actions = {
     const { data } = await AppApi.cuisines()
     commit('setCuisines', data)
   },
+
+  async fetchGroups({ commit, state }) {
+    if (!state.loggedUser) return
+
+    const { data } = await AppApi.groups(state.loggedUser.username)
+    commit('setGroups', data)
+  },
+
+  selectGroup({ commit }, group) {
+    commit('setSelectedGRoup', group)
+  },
+
   updatePreferences({ commit, state }, preferences) {
     commit('setPreferences', preferences)
 
     if (state.loggedUser) {
       AppApi.updatePreferences(preferences)
     }
-  }
+  },
+
+  async login({ dispatch, commit }, { username, password }) {
+    const { data } = await AppApi.login(username, password)
+    const user = data
+
+    if (user) {
+      commit('setLoggedUser', user)
+      dispatch('fetchGroups')
+    }
+  },
 }
 
 export const mutations = {
@@ -33,9 +57,18 @@ export const mutations = {
   setPreferences(state, preferences) {
     state.preferences = preferences
   },
+
+  setGroups(state, groups) {
+    state.groups = groups
+  },
+
+  setSelectedGRoup(state, group) {
+    state.selectedGroup = group
+  }
 }
 
 export const getters = {
   loggedUser: ({ loggedUser }) => loggedUser,
   getPreferences: ({ preferences }) => preferences,
+  groups: ({ groups }) => groups,
 }

@@ -17,6 +17,10 @@ export const actions = {
       commit('setLeftTab', null)
     }
   },
+
+  newGroup({ commit }) {
+    commit('setLeftTab', 'newGroup')
+  },
 }
 
 export const mutations = {
@@ -30,4 +34,5 @@ export const mutations = {
 
 export const getters = {
   showGroups: ({ leftTab }) => leftTab === 'groups',
+  showNewGroup: ({ leftTab }) => leftTab === 'newGroup',
 }
