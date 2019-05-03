@@ -33,6 +33,17 @@
           </v-layout>
         </v-container>
       </v-item-group>
+      <v-list-tile/>
+
+      <v-container grid-list-md>
+        <v-layout wrap column>
+          <v-btn color="red" @click="newGroup()" xs12 md4>
+            <v-icon>group_add</v-icon>
+            <v-spacer/>
+            <div>New Group</div>
+          </v-btn>
+        </v-layout>
+      </v-container>
 
     </v-list>
   </v-navigation-drawer>
@@ -50,12 +61,12 @@ export default {
     ...mapGetters('user', ['groups']),
   },
   methods: {
-    ...mapActions('toolbar', ['toggleGroups']),
+    ...mapActions('toolbar', ['toggleGroups', 'newGroup']),
     ...mapActions('user', ['fetchGroups', 'selectGroup']),
     selectAndToggle(group, toggle) {
       toggle()
       this.selectGroup(group)
-    }
+    },
   },
 }
 </script>
