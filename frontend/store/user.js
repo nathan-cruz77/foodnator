@@ -29,7 +29,7 @@ export const actions = {
     commit('setPreferences', preferences)
 
     if (state.loggedUser) {
-      AppApi.updatePreferences(preferences)
+      AppApi.updatePreferences(state.loggedUser.username, preferences)
     }
   },
 

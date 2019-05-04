@@ -19,8 +19,8 @@ const api = {
   groups(username) {
     return get('/api/groups', { username });
   },
-  updatePreferences(preferences){
-    return null;
+  updatePreferences(username, preferences){
+    return post('/api/user/preferences', { username, preferences });
   },
   searchUsers(query) {
     return get('/api/users/search', { query })
