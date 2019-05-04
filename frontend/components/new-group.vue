@@ -24,11 +24,20 @@
           :items="users"
           :search-input.sync="userSearch"
           item-text="username"
+          clearable
           multiple
           cache-items
           chips
           hide-no-data
-          hide-selected/>
+          hide-selected>
+
+          <template slot="selection" slot-scope="{ selected, item, index }">
+            <v-chip @input="remove(index)" :selected="selected" close class="chip--select-multi">
+              {{ item.username }}
+            </v-chip>
+          </template>
+
+        </v-autocomplete>
       </v-list-tile>
       <v-list-tile/>
 
@@ -82,6 +91,9 @@ export default {
 
   methods: {
     ...mapActions('toolbar', ['backToGroups']),
+    remove(index) {
+      if (index >= 0) this.selectedUsers.splice(index, 1)
+    },
   },
 }
 </script>
