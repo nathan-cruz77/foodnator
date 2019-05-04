@@ -10,6 +10,12 @@
     chips
     multiple
     color="blue-grey lighten-2">
+
+    <template slot="selection" slot-scope="{ selected, item, index }">
+      <v-chip @input="remove(index)" :selected="selected" close class="chip--select-multi">
+        {{ getText(item) }}
+      </v-chip>
+    </template>
   </v-autocomplete>
 </template>
 
@@ -27,7 +33,12 @@ export default {
     value: {
       type: Array,
       required: true,
-    }
+    },
+    itemText: {
+      type: String,
+      required: false,
+      default: '',
+    },
   },
 
   // This copy is here to prevent Vue from complaining about v-autocomplete
@@ -43,6 +54,20 @@ export default {
   watch: {
     valueCopy() {
       this.$emit('input', this.valueCopy)
+    },
+  },
+
+  methods: {
+    getText(item) {
+      if (this.itemText) {
+        return item[this.itemText]
+      }
+
+      return item
+    },
+
+    remove(index) {
+      if (index >= 0) this.valueCopy.splice(index, 1)
     },
   },
 }
