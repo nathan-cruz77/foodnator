@@ -23,8 +23,14 @@ const api = {
     return post('/api/user/preferences', { username, preferences });
   },
   searchUsers(query) {
-    return get('/api/users/search', { query })
+    return get('/api/users/search', { query });
   },
+  findRestaurant(group) {
+    return get('/api/find_restaurant', group);
+  },
+  fetchRestaurant(restaurantSlug) {
+    return get(`/api/restaurant/${restaurantSlug}`);
+  }
 }
 export default api;
 

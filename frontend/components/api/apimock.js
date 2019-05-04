@@ -61,7 +61,20 @@ const api = {
       { id: 7, username: 'Antonia' },
       { id: 8, username: 'Joao' },
       { id: 9, username: 'Fernanda' },
-    ])
+    ]);
+  },
+  findRestaurant({ name }) {
+    return mockasync(`restaurante-bixao-${name}`);
+  },
+  fetchRestaurant(restaurantSlug) {
+    return mockasync({
+      name: `Restaurante bixão`,
+      slug: restaurantSlug,
+      delivery_fee: 0,
+      rating: 4.8,
+      cuisine: 'Brasileira',
+      price_range: 'CHEAPEST',
+    });
   }
 };
 
