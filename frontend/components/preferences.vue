@@ -12,12 +12,18 @@
       <v-list-tile/>
 
       <v-list-tile>
-        <multi-select v-model="preferences.selectedCuisines" :options.sync="cuisines" label="Prefered cuisines"/>
+        <multi-select
+          v-model="preferences.selectedCuisines"
+          :options="availableSelectionCuisines"
+          label="Prefered cuisines"/>
       </v-list-tile>
       <v-list-tile/>
 
       <v-list-tile>
-        <multi-select v-model="preferences.rejectedCuisines" :options.sync="cuisines" label="Rejected cuisines"/>
+        <multi-select
+          v-model="preferences.rejectedCuisines"
+          :options="availableRejectionCuisines"
+          label="Rejected cuisines"/>
       </v-list-tile>
       <v-list-tile/>
 
@@ -49,6 +55,7 @@
 </template>
 
 <script>
+import _ from 'lodash'
 import { mapActions, mapState, mapGetters } from 'vuex'
 import MultiSelect from '~/components/multi-select'
 
@@ -61,7 +68,8 @@ export default {
       rejectedCuisines: [],
       rating: 0,
     },
-    cuisines: [],
+    availableSelectionCuisines: [],
+    availableRejectionCuisines: [],
   }),
 
   components: {
@@ -70,20 +78,29 @@ export default {
 
   async mounted() {
     await this.fetchCuisines()
-    this.cuisines = [...this.availableCuisines]
+    this.availableSelectionCuisines = _.cloneDeep(this.cuisines)
+    this.availableRejectionCuisines = _.cloneDeep(this.cuisines)
   },
 
   watch: {
     preferences: {
       handler() {
-        this.updatePreferences({ ...this.preferences })
+        this.updatePreferences(_.cloneDeep(this.preferences))
       },
       deep: true,
+    },
+
+    'preferences.selectedCuisines'() {
+      this.availableRejectionCuisines = _.difference(this.cuisines, this.preferences.selectedCuisines)
+    },
+
+    'preferences.rejectedCuisines'() {
+      this.availableSelectionCuisines = _.difference(this.cuisines, this.preferences.rejectedCuisines)
     },
   },
 
   computed: {
-    ...mapState('user', { availableCuisines: 'cuisines' }),
+    ...mapState('user', ['cuisines']),
     ...mapState('toolbar', ['showPreferences']),
   },
   methods: {
