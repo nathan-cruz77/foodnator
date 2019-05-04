@@ -9,8 +9,7 @@
     clearable
     chips
     multiple
-    color="blue-grey lighten-2"
-    no-data-text="Carregando">
+    color="blue-grey lighten-2">
   </v-autocomplete>
 </template>
 

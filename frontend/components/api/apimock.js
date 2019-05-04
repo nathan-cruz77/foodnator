@@ -49,6 +49,20 @@ const api = {
   updatePreferences(preferences){
     return mockasync({});
   },
+  searchUsers(query) {
+    return mockasync([
+      { id: 0, username: 'Ana' },
+      { id: 1, username: 'Pedro' },
+      { id: 2, username: 'Paulo' },
+      { id: 3, username: 'Maria' },
+      { id: 4, username: 'Patricia' },
+      { id: 5, username: 'Lucas' },
+      { id: 6, username: 'Adriana' },
+      { id: 7, username: 'Antonia' },
+      { id: 8, username: 'Joao' },
+      { id: 9, username: 'Fernanda' },
+    ])
+  }
 };
 
 export default api;

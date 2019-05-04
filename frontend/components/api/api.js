@@ -21,7 +21,10 @@ const api = {
   },
   updatePreferences(preferences){
     return null;
-  }
+  },
+  searchUsers(query) {
+    return get('/api/users/search', { query })
+  },
 }
 export default api;
 
