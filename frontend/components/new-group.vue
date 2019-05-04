@@ -34,7 +34,7 @@
 
       <v-list-tile>
         <v-list-tile-content style="align-items: center">
-          <v-btn color="red" dark>Create group</v-btn>
+          <v-btn :disabled="createDisabled" :class="btnClass" color="red">Create group</v-btn>
         </v-list-tile-content>
       </v-list-tile>
     </v-list>
@@ -68,6 +68,16 @@ export default {
 
   computed: {
     ...mapGetters('toolbar', ['showNewGroup']),
+    createDisabled() {
+      return !this.name || this.selectedUsers.length <= 0
+    },
+    btnClass() {
+      if (this.createDisabled) {
+        return ''
+      }
+
+      return 'white--text'
+    },
   },
 
   methods: {
