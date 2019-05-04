@@ -28,18 +28,13 @@
           cache-items
           chips
           hide-no-data
-          hide-selected
-          required>
-          <!-- <template slot="item" slot-scope="{ item }">
-            {{ JSON.stringify(item) }}
-          </template> -->
-      </v-autocomplete>
+          hide-selected/>
       </v-list-tile>
       <v-list-tile/>
 
       <v-list-tile>
         <v-list-tile-content style="align-items: center">
-          <v-btn color="red">Create group</v-btn>
+          <v-btn color="red" dark>Create group</v-btn>
         </v-list-tile-content>
       </v-list-tile>
     </v-list>
