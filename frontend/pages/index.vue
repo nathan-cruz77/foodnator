@@ -2,7 +2,7 @@
   <v-layout column justify-center align-center>
     <div class="display-2">Can't choose where to eat?</div>
     <div class="display-2">We got you covered!</div>
-    <v-btn color="red darken-1" dark large @click="findRestaurant()">Find restaurant</v-btn>
+    <v-btn color="red darken-1 white--text" large @click="findRestaurant()">Find restaurant</v-btn>
   </v-layout>
 </template>
 

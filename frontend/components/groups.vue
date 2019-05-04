@@ -37,7 +37,7 @@
 
       <v-container grid-list-md>
         <v-layout wrap column>
-          <v-btn color="red" dark @click="newGroup()" xs12 md4>
+          <v-btn color="red" class="white--text" @click="newGroup()" xs12 md4>
             <v-icon>group_add</v-icon>
             <v-spacer/>
             <div>New Group</div>
