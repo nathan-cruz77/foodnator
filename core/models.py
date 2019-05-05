@@ -41,7 +41,7 @@ class Restaurant(models.Model):
 
 class Preference(models.Model):
     only_free_delivery = models.BooleanField()
-    max_rating = models.DecimalField(max_digits=2, decimal_places=1)
+    min_rating = models.DecimalField(max_digits=2, decimal_places=1)
 
     user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
     price_range = models.ForeignKey(PriceRange)
