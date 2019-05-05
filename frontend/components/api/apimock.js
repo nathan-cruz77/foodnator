@@ -70,7 +70,7 @@ const api = {
     return mockasync({
       name: `Restaurante bixão`,
       slug: restaurantSlug,
-      delivery_fee: 0,
+      delivery_fee: 7,
       rating: 4.8,
       cuisine: 'Brasileira',
       price_range: 'CHEAPEST',
