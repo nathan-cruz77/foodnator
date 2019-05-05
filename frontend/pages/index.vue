@@ -16,13 +16,19 @@ import { mapState } from 'vuex'
 import AppApi from '~apijs'
 
 export default {
+  data: () => ({
+    loading: false,
+  }),
+
   computed: {
     ...mapState('user', ['selectedGroup']),
   },
 
   methods: {
     async findRestaurant() {
+      this.loading = true
       const { data } = await AppApi.findRestaurant(this.selectedGroup)
+      this.loading = false
       this.$router.push({ path: `/restaurant/${data}` })
     },
   },
