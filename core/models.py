@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+
 class ActivityLog(models.Model):
     type = models.CharField(max_length=64)
     logged_user = models.ForeignKey(User, null=True, blank=True)
@@ -19,13 +20,30 @@ class ActivityLog(models.Model):
         )
 
 
-class Todo(models.Model):
-    description = models.CharField(max_length=512)
-    done = models.BooleanField(default=False)
+class PriceRange(models.Model):
+    name = models.CharField(max_length=64)
 
-    def to_dict_json(self):
-        return {
-            'id': self.id,
-            'description': self.description,
-            'done': self.done,
-        }
+
+class Cuisine(models.Model):
+    name = models.CharField(max_length=255)
+
+
+class Restaurant(models.Model):
+    name = models.CharField(max_length=255)
+    delivery_fee = models.DecimalField(max_digits=5, decimal_places=2)
+    rating = models.DecimalField(max_digits=2, decimal_places=1)
+
+    price_range = models.ForeignKey(PriceRange)
+    cuisine = models.ForeignKey(Cuisine)
+
+
+class Preference(models.Model):
+    type = models.CharField(max_length=64)
+
+    user = models.ForeignKey(User)
+    cuisine = models.ForeignKey(Cuisine)
+
+
+class Group(models.Model):
+    name = models.CharField(max_length=255)
+    users = models.ManyToManyField(User)
