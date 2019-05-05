@@ -160,6 +160,10 @@ function echo_yellow {
     echo -e "${YELLOW}$1${RESTORE}";
 }
 
+function psql_dev {
+  PGPASSWORD=app psql -U app -p 5431 -h localhost app
+}
+
 echo_green "Welcome to foodnator's dev env"
 echo_green "Hint: autocomplete works for the commands below ;)"
 echo_red   "------------------------------------------------------------------------"
