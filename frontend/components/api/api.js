@@ -13,8 +13,9 @@ const api = {
   whoami(){
     return get('/api/whoami');
   },
-  cuisines(){
-    return get('/api/cuisines');
+  async cuisines(){
+    const { data } = await get('/api/cuisines');
+    return data
   },
   groups(username) {
     return get('/api/groups', { username });

@@ -1,11 +1,15 @@
 # coding: utf-8
 import json
-from django.http.response import HttpResponse, JsonResponse
+
 from django.contrib import auth
+from django.http.response import HttpResponse, JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+
 from commons.django_model_utils import get_or_none
 from commons.django_views_utils import ajax_login_required
+
 from core.service import log_svc
-from django.views.decorators.csrf import csrf_exempt
+from core.service import cuisine_svc
 
 
 def dapau(request):
@@ -41,6 +45,10 @@ def whoami(request):
         'authenticated': True,
     } if request.user.is_authenticated() else {'authenticated': False}
     return JsonResponse(i_am)
+
+
+def list_cuisines(request):
+    return JsonResponse({'data': cuisine_svc.list_cuisines()})
 
 
 def _user2dict(user):
