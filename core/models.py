@@ -32,6 +32,9 @@ class Restaurant(models.Model):
     name = models.CharField(max_length=255)
     delivery_fee = models.DecimalField(max_digits=5, decimal_places=2)
     rating = models.DecimalField(max_digits=2, decimal_places=1)
+    slug = models.SlugField(max_length=255)
+    avatar = models.URLField()
+
 
     price_range = models.ForeignKey(PriceRange)
     cuisine = models.ForeignKey(Cuisine)
