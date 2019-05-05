@@ -35,16 +35,18 @@ class Restaurant(models.Model):
     slug = models.SlugField(max_length=255)
     avatar = models.URLField()
 
-
     price_range = models.ForeignKey(PriceRange)
     cuisine = models.ForeignKey(Cuisine)
 
 
 class Preference(models.Model):
-    type = models.CharField(max_length=64)
+    only_free_delivery = models.BooleanField()
+    max_rating = models.DecimalField(max_digits=2, decimal_places=1)
 
-    user = models.ForeignKey(User)
-    cuisine = models.ForeignKey(Cuisine)
+    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
+    price_range = models.ForeignKey(PriceRange)
+    selected_cuisines = models.ManyToManyField(Cuisine, related_name='selected_by')
+    rejected_cuisines = models.ManyToManyField(Cuisine, related_name='rejected_by')
 
 
 class Group(models.Model):
