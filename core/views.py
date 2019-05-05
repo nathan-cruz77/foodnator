@@ -11,6 +11,7 @@ from commons.django_views_utils import ajax_login_required
 from core.service import log_svc
 from core.service import cuisine_svc
 from core.service import group_svc
+from core.service import preference_svc
 
 
 def dapau(request):
@@ -55,6 +56,12 @@ def list_cuisines(request):
 @ajax_login_required
 def list_groups(request):
     return JsonResponse({'data': group_svc.list_groups(request.user)})
+
+
+@ajax_login_required
+def update_preferences(request):
+    preference_svc.update(request.user, request.POST)
+    return JsonResponse({})
 
 
 def _user2dict(user):

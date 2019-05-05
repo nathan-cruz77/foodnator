@@ -9,4 +9,5 @@ urlpatterns = [
 
     url(r'^api/cuisines$', views.list_cuisines),
     url(r'^api/groups$', views.list_groups),
+    url(r'^api/user/preferences$', views.update_preferences),
 ]

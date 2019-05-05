@@ -1,5 +1,6 @@
 from core.models import User
 from core.models import Group
+from core.models import Preference
 
 
 def user_jon():

@@ -21,8 +21,8 @@ const api = {
     const { data } = await get('/api/groups');
     return data;
   },
-  updatePreferences(username, preferences){
-    return post('/api/user/preferences', { username, preferences });
+  updatePreferences(preferences){
+    return post('/api/user/preferences', preferences);
   },
   searchUsers(query) {
     return get('/api/users/search', { query });

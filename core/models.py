@@ -35,10 +35,15 @@ class PriceRange(models.Model):
 
         return cls.objects.get(name=mapping[value])
 
+    def __str__(self):
+        return '{} - {}'.format(self.id, self.name)
+
 
 class Cuisine(models.Model):
     name = models.CharField(max_length=255)
 
+    def __str__(self):
+        return '{} - {}'.format(self.id, self.name)
 
 class Restaurant(models.Model):
     name = models.CharField(max_length=255)
@@ -49,6 +54,9 @@ class Restaurant(models.Model):
 
     price_range = models.ForeignKey(PriceRange)
     cuisine = models.ForeignKey(Cuisine)
+
+    def __str__(self):
+        return '{} - {}'.format(self.id, self.name)
 
 
 class Preference(models.Model):
@@ -64,3 +72,6 @@ class Preference(models.Model):
 class Group(models.Model):
     name = models.CharField(max_length=255)
     users = models.ManyToManyField(User)
+
+    def __str__(self):
+        return '{} - {}'.format(self.id, self.name)

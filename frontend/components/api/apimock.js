@@ -47,6 +47,7 @@ const api = {
     ])
   },
   updatePreferences(preferences){
+    console.log(`pref: ${JSON.stringify(preferences)}`)
     return mockasync({});
   },
   searchUsers(query) {
