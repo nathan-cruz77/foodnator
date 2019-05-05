@@ -1,0 +1,681 @@
+avatar,category,delivery_fee,delivery_time,distance,name,price_range,rating
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201709271029_f83ebb3b-eafd-4f63-9527-1d52739df1d1.jpg",Lanches,8.0,45,3.11,Player 1 Homemade Burger,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201710161242_af68bfb2-b2f7-4923-af2b-1f67729670c2.jpg",Variada,8.0,45,9.82,Churrascaria Dutra Grill,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201710290926_2232bb5a-1c68-4e89-b259-5536d73ffedc.png",Lanches,5.0,45,5.18,Flash Burguer,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201710231955_7ccc814d-adfa-4610-b7d4-de1bb430e742.png",Brasileira,0.0,60,2.71,Sabor & Prosa Restaurante e Porções,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201711141051_ad854cfa-7c28-47e5-be3c-53be962d133e.png",Lanches,6.0,45,1.12,Drive Burger,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a67f533b-cf6e-4aef-942f-f0f3a7892c11/201801221830_img_2.jpg",Variada,3.0,20,6.92,Burgarelli Pizzaria e Lanchonete,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201711141101_3f5beed4-4084-41e4-8334-e6f157200a3a.jpg",Pizza,6.0,40,5.44,La Pizza,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201806211815_3e37e0db-4d03-419b-91c9-006989aeee12.jpg",Lanches,5.0,40,6.03,Billys,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/89db171d-9113-45a5-a4e7-ef604cde3ff9/201804161410_entre.jpg",Variada,0.0,50,2.37,Cantinho da Vovó,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201712051310_94587671-ee67-47bb-b3c7-2ff413c0b8b9.jpg",Pizza,8.0,60,4.64,Kadosh Pasteizinhos,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201712040821_87a26221-6961-401b-afd9-d519b3e4467e.jpg",Salgados,6.0,40,3.96,Lopez Salgados,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201712051616_db3a4abc-199c-452f-a706-f039af3ded5b.png",Pizza,5.0,40,0.99,Rei da Pizza,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201712191722_328fd64e-bce8-4c8d-bcd9-44e43be45359.png",Doces & Bolos,5.0,60,4.58,Bah Chococake,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201712231909_53fe5a50-c6fe-477b-ab6b-be90ff9b4237.jpg",Brasileira,5.0,60,3.24,Churrascaria Delivery,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bcb7806c-279c-4822-aae6-0d9ee7cd03e3/201802022102_mudde.png",Lanches,4.9,40,1.07,Mudde Burgers,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201712292020_301be018-76a8-4d7f-bbc7-dea96f3669fc.png",Lanches,5.0,60,2.25,Corleone Burguer,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a759f7b7-4cac-4687-a7c5-4e617e7b6ad2/201801181154_fitne.png",Saudável,5.0,50,2.26,Fitness Food,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801190831_6803e8a0-28f6-433c-b784-096fac7dfa64.jpg",Brasileira,4.0,60,1.37,Bar Gogo da Ema - Bar Restaurant,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801141705_57470d13-705c-41a5-ae35-c7b4ef55109f.png",Brasileira,4.0,40,2.17,Padaria Pão de Açucar,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801131407_7eb2a2eb-46b0-4dfb-8483-9db241a28a0f.png",Variada,3.0,40,4.17,Lellu's Restaurante  Bar,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a2b123d2-fe66-4261-b3c3-10b1d9d7880b/201801271139_teste3.jpg",Lanches,5.0,40,0.99,Smoked Burger,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801220816_fea6bc20-fbf4-46ff-ac9c-720b36042d93.png",Lanches,4.9,40,2.11,Rei do Sabor,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801210931_90339df9-60b2-45e4-983a-6126f08aa88b.jpg",Japonesa,4.9,40,2.22,Gohan  Japanese Food,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801240726_dd15057d-d6e7-4407-9f12-a7e5fffd597b.png",Variada,4.9,40,2.24,Chopp's Cia,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802041807_e48fac9a-6f3e-422d-89c1-dc7fbf3fcf3d.png",Lanches,4.9,40,1.07,Rock&ribs,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/34ac672e-d910-4836-8a8f-419ecbcc5a21/201802281854_capab.jpg",Lanches,4.9,60,3.45,Bless Hamburgueria,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/59fb4676-a942-4558-a6f4-cac0250d884a/201803301848_img20.jpg",Variada,4.9,60,2.99,Fucking Crazy Boss Burger e Chope,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802071045_0cf08fab-e2ea-4c64-a6ba-bb5a24e974b8.png",Brasileira,2.0,45,3.33,Edi e Fati Marmitaria Delivery,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802201114_d125f567-96b7-49ee-9b81-ede943a082bd.png",Pizza,6.0,45,4.27,Fornovo Pizzaria,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802140925_85045d26-e316-4f54-8495-659a308ba172.png",Carnes,4.9,40,1.02,Varanda Espetinhos,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802191524_70a93bd7-cee1-4f62-86e5-9cb02145a446.jpg",Lanches,5.9,60,4.62,Katgabi Lanches & Molhos,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802191939_cd23b713-d6ef-4404-b4db-2de9e57ea971.png",Mexicana,6.0,50,3.74,Tacos del Acapulco,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802221438_5bb14cfa-8364-46e6-86c7-7fae52d24de3.png",Japonesa,3.0,60,2.32,Tiamat Sushi Delivery,MODERATE,0.0
+,Variada,3.0,50,1.37,Deck da Villa,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803131616_0d76dc22-906f-4cac-8bd6-aeccbb59e84d.png",Carnes,4.9,40,1.25,Villa D' Marco Costelaria,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803261848_8af6103d-11f1-4e21-b3f3-65ec3713a2fa.png",Lanches,5.0,60,4.8,Rbc Polpas Detox,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803271417_6028b8a3-e5b5-4762-afec-d73e2c264763.jpg",Italiana,4.9,40,1.36,Bravo Massas,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/ea3ac8cc-93f3-47e4-9803-4019feb4ea1b/201811032226_45327.jpg",Salgados,3.0,60,4.57,Ma Toledo Cozinha,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201804120745_4c76b0c4-9d55-4791-a95b-add57657a29e.jpg",Variada,5.0,50,4.58,Basilica Tattoo Bar,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201804120827_da427fe9-68ec-4651-8f55-7a9b19295216.jpg",Variada,5.0,50,3.85,Ludy Sorvetes,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201804231710_cab33a16-a9ef-4364-a58f-34a4ce5f9933.png",Lanches,5.0,40,3.17,The House Boards & Burgers,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201805040724_3f87e348-30d2-4a52-9261-972c32485fe2.png",Lanches,6.0,30,3.84,Cabana Lanches,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/c720da0d-7499-4aaa-90ce-9a22a4753819/201805061725_face_.jpg",Brasileira,0.0,39,2.75,"Cris, Comida Caseira",CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201805101047_2c3a4f03-3d3e-455d-8e17-0ac3b2c82e43.png",Brasileira,5.0,35,2.04,Empanadas da Vovó,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201804181527__NATUR_ELITE.png",Sorvetes,4.0,30,3.23,Natureba -jardim Satélite,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a96d03f1-846b-4f2f-9df3-38951d88bee4/201807152002_stopl.jpg",Variada,0.0,40,3.58,Stop Burguer,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201806130920_b862f458-8ed4-458c-9eae-6b53b87b0198.jpg",Pizza,6.0,40,5.11,Kipizza Delivery,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/740f4cd4-efd9-4c30-998e-54d2f8e9722c/201807122204_logod.png",Pizza,5.0,90,3.72,Dom Pizzaria,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904161742_1c5c51ff-b2df-4f92-9856-0d823fe23cbb.jpg",Cozinha Rápida,0.0,30,0.94,Sanja's Burguer,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808201515_251a8f4c-86ce-49d0-aad3-8d0775f12f63.png",Pizza,5.0,55,3.41,Sabor Gourmet,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/80732133-6121-41d2-abcb-fb0e73ac4685/201808252135_logo4.png",Lanches,2.99,60,3.0,Hamburgueria do Alemao,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/dc4083b6-8d0b-4e6a-b411-8bb439b70555/201809060042_ocerto.jpg",Doces & Bolos,0.0,60,2.98,Big Waffles Delivery,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808300717_f9b0b564-2c4d-444f-8c51-239999028c97.png",Lanches,4.0,35,2.71,Tempero de Mae Moco,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/af5cb37f-cc4e-4e2a-8c4f-08d38501e444/201809111219_a848c.jpg",Brasileira,1.5,25,2.96,Restaurante Marmitaria el Shaday,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809031037_e0a3ec1d-605c-4c63-80e6-98f28c2217e4.png",Carnes,4.9,60,3.86,Familia Paschoal Grill,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b5397725-9af7-4e8b-b06f-59be27b2c8c5/201809101710_acaid.jpg",Saudável,7.0,30,5.31,Acai do Oriente,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809151623_a6ee9c27-3869-4e4f-9d63-ac6face86921.jpg",Brasileira,7.0,75,3.54,Villa do Acai,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/3d5b1d2d-2390-4be2-93af-ee395d0584a2/201809261853_logo.png",Lanches,8.0,55,4.41,Tempero do Vale,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809242030_f50ff1a5-ca52-412f-a586-9c33937e6ff1.png",Marmita,7.0,70,5.49,Palito Salgados e Lanches.,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b66e4ecf-f30e-4a28-99bd-ea3dafe4a210_DOTOR_ARIUS.jpg",Brasileira,4.9,60,4.37,Dotor Delivery - Jd. Aquarius,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201810181117_6619323c-ec79-4968-b9ae-3e70cf5be834.jpg",Lanches,6.0,80,3.56,Gringo Smokehouse,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811120853_8edbc7e5-21c8-4af6-8ba7-89bfb7663fb1.png",Pizza,12.5,72,6.21,Ritorno Della Pizza,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811201309_ef41eea3-c234-4771-bb57-809195ddafa4.png",Bebidas,8.5,59,6.0,Adegapetisco,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811231715_bf5821f2-3a28-4a80-acf5-2f7384b1f2c2.png",Brasileira,3.0,40,2.34,Chico's Food,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811261048_14a9a6cd-8a60-4fd4-a167-ee82068b39ad.png",Vegetariana,4.9,40,1.84,Raíz da Villa,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811261151_9f43fc7c-375d-4a98-8593-f7c1de58e2f6.png",Brasileira,4.9,40,1.44,Seu Maxixe,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811282049_79837e91-e717-432e-ae31-0a3b159c0b7e.png",Brasileira,4.9,31,2.24,Hora Extra,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/324ca7fd-471e-4bbc-9a7a-1a024f6b5cca/201812101601_image.jpg",Doces & Bolos,9.9,80,8.67,D'polly Bolos,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812121727_2de3eb18-b63d-413e-b091-69d69e71fa4c.jpg",Brasileira,4.9,60,1.05,Guten Bier,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/89d2c649-9d9d-47eb-9cc9-e368032e90d0/201903231843_image.png",Bebidas,9.0,80,6.8,Petiscosbeer☆,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d4760922-4a82-4bf9-aba7-7c43a686a6fd/201903301716_bdOX_i.jpg",Brasileira,4.9,40,0.49,Yasai,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/e6ce25dc-e700-4d29-a5d7-18865daed6dc/201904011943_V8OT_i.png",Açaí,4.9,60,3.59,Ohana Acai e Sorvetes,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201905011618_e1c00411-a01b-4548-a018-51d62dcdbbc9.jpg",Saudável,4.9,40,2.27,Br Chocolates,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/87c7e479-3497-4444-b792-d6dc5c644052/201904201351_lC1H_i.jpg",Salgados,12.0,90,8.65,Coxique´s,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/306786b3-ef4e-4e23-b6e2-baedb67849b3/201904230150_v0CO_i.png",Italiana,0.0,40,1.13,Le Palmier Restaurante,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904252020_d7de4584-9a01-479f-a6a0-0e2bfa80d1c6.jpg",Brasileira,4.9,40,2.23,Ceará Restaurante,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904261423_da47710b-dc91-4a73-a28b-1c74cf92d960.jpg",Italiana,4.9,60,3.28,La Bufalina Sjc,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904301052_350239e3-505b-4519-8a37-c9a37071cdc6.png",Saudável,4.9,40,2.27,Oakberry Açaí - Center Vale Shopping,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/1c86a671-3af1-4dab-8b38-5131cefbe321/201904291303_hBXE_.jpeg",Brasileira,7.0,70,4.41,ALVES&ARAUJO HAMBURGUERIA,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/ed64b899-7240-4dba-a903-1e9f1389c3d7/201904291659_SSue_.jpeg",Brasileira,0.0,60,3.02,Villa de Lena,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/888f2f5f-0f89-4bf8-8afd-57f517f6ffb2/201904251114_KSQg_b.jpg",Brasileira,0.0,60,2.4,Restaurante Panela Quente,CHEAPEST,4.144269943237305
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201709151538_e540af4e-6fdc-488c-95ce-2af95462abd3.png",Variada,1.0,30,1.37,Adyanna Grill,CHEAPEST,4.119719982147217
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201707011355_18e9dddf-e4f6-476d-a2d2-fd37de377bf3.jpg",Cozinha Rápida,6.0,60,5.4,Salgaderia do Chef,CHEAP,4.111110210418701
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903131500_f73527be-fbe6-4c53-9756-18789bc1d7a1.png",Lanches,7.0,45,4.28,Espetinhos e Lanches Jk,CHEAPEST,4.111110210418701
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/12dee1ba-6885-403a-a4c2-9a132b448b7e/201902271428_paste.jpg",Italiana,4.9,27,1.86,Cantina Possetti,CHEAPEST,4.095240116119385
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/707681da-d04f-4db3-b6a9-2c61269ce07f/201901181122_img20.jpg",Marmita,3.0,80,4.12,Calçada Joseense,CHEAPEST,4.094019889831543
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/1b0e96f2-90a3-418b-a4f3-7a4007abbba0/201902281601_39386.jpg",Brasileira,4.9,32,4.04,Quintal House,CHEAP,4.090909957885742
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902120957_24a415b3-22ac-44d4-a631-590ff5542cad.jpg",Brasileira,4.9,30,2.68,Dom Octavio,CHEAPEST,4.090909957885742
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b568a276-4009-4d4d-8942-ff427153c81c/201902271730_image.jpg",Pizza,8.0,50,3.99,Troina Pizza Gourmet,EXPENSIVE,4.083330154418945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803081721_8163a5b4-19c2-4f59-91a5-f4e258f03684.PNG",Variada,0.0,40,2.25,Villa Nova Sabores,CHEAP,4.079999923706055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/52b4da31-4e41-48d7-a845-f89bc5c535de/201903181712_what.jpeg",Pizza,0.0,60,6.39,Reino da Pizza,MODERATE,4.076920032501221
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201707150736_f1312566-eaf2-44d9-b6fb-1d39fd227f04.png",Saudável,0.0,60,1.33,Nutri Gastrofood,CHEAPEST,4.073530197143555
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901211007_e811774a-e959-42f3-bc00-da065d8bef1a.jpg",Lanches,4.9,33,4.41,Rico Food House,CHEAP,4.065420150756836
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/4bfd8caf-5636-4447-830b-e3dd1c82b04f/201902181347_copia.png",Brasileira,4.0,60,1.58,Da Roça São Dimas,CHEAPEST,4.064589977264404
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902181342_854007cb-f809-4b6f-92ad-a5b88e497ba6.jpg",Lanches,0.0,40,2.41,B. Burger Retro,CHEAPEST,4.058819770812988
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/32b96bac-f8ef-4724-bd84-372b6649b8b1/201904120129_L3dj_i.jpg",Pizza,10.0,45,3.58,Scarollas Delivery,CHEAP,4.055560111999512
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201710241037_bef91fc5-4c30-41cd-a450-bf28c7ef3eb5.jpg",Lanches,5.0,70,4.07,Açaí do Patrão,CHEAPEST,4.053110122680664
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903151317_f0769a4f-5ad9-4677-ad12-b9f66e965290.png",Marmita,0.0,55,5.78,Marmitaria Tempero Completo,CHEAPEST,4.052130222320557
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/3f9cccd5-65a8-44ef-9463-4726ff3b376a/201810301835_taber.png",Lanches,4.9,24,1.11,Taberna Calzoneria,CHEAPEST,4.047619819641113
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/4a337fd4-14f1-497e-a322-72f3b64980e9/201904241650_4nPO_.jpeg",Lanches,2.0,50,2.02,Burg Lândia,CHEAPEST,4.040369987487793
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811091413_000f9eba-94fd-49b9-9fc5-56de6c33f93d.jpg",Lanches,8.0,30,3.72,Dog Store,CHEAP,4.032259941101074
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201708261450_5f5b924e-6bd5-469e-bf00-889881fff08d.png",Brasileira,2.5,60,1.64,Marmitamania,CHEAPEST,4.029409885406494
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901091328_1b5d67bd-1d2c-4a5e-ba92-951422fda04e.bmp",Carnes,4.9,60,4.17,Espetones,CHEAPEST,4.028570175170898
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201710021432_5bf7d129-deff-40a8-a21a-9f0892b86eba.png",Japonesa,8.0,70,5.15,Kira Cozinha Oriental,MODERATE,4.022630214691162
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201709131228_011e74e4-986a-4731-888e-e55e58d38a22.jpg",Pizza,4.0,50,3.26,Buona Pizza,CHEAPEST,4.013199806213379
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201805281843_f2963a33-5e0b-4b6c-8131-c6b00d6eae88.png",Lanches,6.0,80,3.97,La Brasa - Lanche Gourmet,MODERATE,4.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901221356_10431653-14ad-4231-b001-926957f89446.jpg",Marmita,4.9,31,4.29,Cantinho da Rô,CHEAPEST,4.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903261950_927103ff-ff3a-409b-aa64-cb6963959fc9.png",Japonesa,0.0,60,2.64,Kenta Sushi Gourmet,CHEAPEST,4.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_reidopaste02.png",Lanches,3.0,50,3.06,Rei do Pastel,CHEAP,3.9894700050354004
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201806120907_8b82ba8d-e714-4609-840d-32d8d05b3234.png",Pizza,5.0,60,3.26,Pizza Show Sjc,MODERATE,3.9879400730133057
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901171741_6a1ec9b2-d675-472b-9652-5474e188c401.png",Brasileira,0.0,23,1.96,Restaurante Jequitiba,CHEAPEST,3.9795899391174316
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a1c675e5-26b8-4161-b68e-6601076a4d61/201902022200_tauru.jpg",Variada,6.0,60,4.54,Tauru’s Hot Burguer,CHEAP,3.9777801036834717
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/67e4fa22-d5dd-4623-8e18-70ecd0b17d04/201903112238_logoo.png",Lanches,4.0,50,4.73,POP!S Hamburgueria,CHEAPEST,3.964289903640747
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201712211152_0e968dde-6a12-4001-bc4a-c71e32182181.PNG",Variada,2.9,40,1.61,Restaurante Lima,CHEAPEST,3.9523799419403076
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/Sem título_BOMBU_IVERY.png",Lanches,7.0,60,3.26,Bom Burguer Delivery,CHEAPEST,3.925800085067749
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo marca_miste_nches.jpg",Lanches,3.0,40,2.73,Mister Gula Lanches,CHEAP,3.909090042114258
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a7ca346f-a0bb-44f5-bea1-5351ed180717/201901020118_image.png",Brasileira,2.0,50,2.96,Marmitaria Tempero Divino,CHEAPEST,3.909090042114258
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201805130912_873cfad9-e1ec-4425-97c0-2dbffef7ae62.jpg",Brasileira,0.0,30,1.51,A Hora do Rango,CHEAPEST,3.9022600650787354
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/cbd7a607-9403-4aab-8272-2ae4bfc85335/201903131912_imag.jpeg",Carnes,5.0,60,3.73,O Concorrente,MODERATE,3.888890027999878
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/027ff2ba-05fb-40d5-8ee5-33dabd45750a/201811261837_logos.png",Marmita,6.0,60,4.12,Restaurante Almazen,CHEAPEST,3.855070114135742
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901281655_24c48173-c5a6-487a-b1d6-7db9bc9256fc.jpg",Pastel,4.9,23,1.56,Pastel da Praça,CHEAPEST,3.8421099185943604
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901081147_e18f6477-2216-4403-9d82-4b86839a88cf.JPG",Brasileira,0.0,40,2.65,Esquina Paulista,CHEAPEST,3.832240104675293
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802261535_71585995-6bb5-40cf-bbee-d68fe4dc6d4d.png",Lanches,4.9,64,2.99,Hamburgueria Topanga Outlaws,MODERATE,3.8181800842285156
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903151516_46b54d52-3c6c-491a-9502-6f76f77b4c92.png",Pizza,0.0,55,5.2,Pizzaria & Esfiharia K,CHEAPEST,3.8181800842285156
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/97201e6f-3711-4841-a859-0633bf35fcb2/201903082019_tenda.jpg",Brasileira,0.0,40,0.87,Tenda da Esfiha Sjc,CHEAP,3.8125
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201710011121_550a2b82-6ed0-4794-92a1-303934aa915e.png",Brasileira,8.0,60,6.18,Fatima Comida Caseira,CHEAPEST,3.7674400806427
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902081907_b18213fe-b988-4bff-9d1b-42ba249a586e.jpg",Açaí,5.0,55,4.03,Central Acai Delivery,CHEAPEST,3.723400115966797
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901101431_58794c45-b9b4-43e3-90ad-8f53324f067c.png",Saudável,10.0,10,4.05,Saúde in Box,CHEAPEST,3.7209300994873047
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201706271259_112b4bfc-1fea-455d-9eee-ea0d0d51e8cd.jpg",Lanches,0.0,30,4.41,Lecos Lanches,CHEAPEST,3.7082200050354004
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902211043_7bd2fb74-8a03-4ace-a0c9-e3f855da3b42.png",Mexicana,4.9,40,1.19,Taco Loco,MODERATE,3.669719934463501
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801310728_26fb14a0-8d01-457c-8cc1-81dad6d44d31.jpg",Variada,2.5,60,1.11,O Pedal Pizza  Metro,EXPENSIVE,3.6500000953674316
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808101348_24798841-690c-4db9-ab01-35dc375ed823.png",Brasileira,0.0,50,3.73,Restaurante e Pizzaria Cheiro de Minas,CHEAPEST,3.6294000148773193
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9c95fff8-02eb-40f0-b868-d2ae6242d4e5/201901271439_chine.jpg",Japonesa,14.5,70,4.39,Ligue China Comida Japonesa e Chinesa,MODERATE,3.615380048751831
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812131826_3133825a-947d-41bf-8ac1-2233dd6245df.png",Brasileira,1.5,50,1.31,Sabor Caseiro,CHEAPEST,3.5999999046325684
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/fbb285f1-a213-48ee-a559-b787b6fa5eb5/201903072250_image.jpg",Árabe,2.0,40,1.06,Tenda da Esfiha II - Sjc,CHEAP,3.5999999046325684
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901261330_d696777f-737b-493f-a2ed-461e0a1a4a5e.jpg",Marmita,4.9,29,2.61,Restaurante e Choperia Bom Ambiente,CHEAP,3.590909957885742
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5861e568-d9dd-4c1b-a6d0-b36e0b3fdc24/201903150029_fb_im.jpg",Lanches,10.0,50,8.69,The Rock Burguer,CHEAPEST,3.588239908218384
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904021257_d367d160-0730-4441-909e-2c2fffe0096e.jpg",Lanches,4.9,40,1.51,Caldinhos da Lele,CHEAPEST,3.583329916000366
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/40bba1ac-873d-415a-8e11-cefa5d2e475b/201902241027_image.jpg",Açaí,6.0,50,5.71,Isa Açaí e Caldinhos,CHEAPEST,3.5769200325012207
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902121142_6e4d77ad-59d6-4da3-ad6f-946f602faf19.png",Brasileira,4.9,27,2.95,Os Panquecas,CHEAPEST,3.5
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/451fbacc-72b7-4ae8-9047-2e29d947e41e/201903122014_goian.png",Lanches,10.0,70,6.62,Goiano Lanchebar,CHEAPEST,3.5
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201810031223_e5f2fc78-3e93-4b36-b227-d67998cd5e16.png",Lanches,10.0,80,8.96,Morada do Sol,CHEAPEST,3.411760091781616
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde//755x500x500x_MASTERPIZZAS.png",Brasileira,0.0,35,5.72,Master Pizzaria & Marmitaria,CHEAPEST,3.4052000045776367
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/111_ciadapizza03.png",Pizza,0.0,40,5.74,Cia Marmitaria e Pizzaria,CHEAPEST,3.371259927749634
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/missushi_missu_ivery.png",Japonesa,13.5,90,6.53,Missushi Delivery,MODERATE,3.333329916000366
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d960a8e3-ac28-4b38-ae5e-3c7633cb458d/201903282001_dIiP_1.jpg",Variada,7.0,60,8.98,Ki Fome Lanches e Sobremesa,CHEAPEST,3.3157899379730225
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/24e91ea8-cccc-4a1e-81dd-990688efec36/201901181006_image.png",Lanches,0.0,40,4.15,Cia do Burguer Delivery,CHEAPEST,3.251849889755249
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/ff8f40e4-d9b5-49bb-b0c4-a29713157380/201812051848_what.jpeg",Lanches,7.5,65,6.43,Aloha Combos,CHEAP,3.219510078430176
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/564eb4a2-0275-49d5-aaac-cecd3657c7d7/201903181409_img20.jpg",Árabe,5.0,55,1.06,Tenda da Esfiha Sjc,CHEAP,3.186340093612671
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903091028_2186dc19-8675-4f8f-be71-c770065b533e.jpg",Brasileira,0.0,40,2.09,Lelú Foods,CHEAPEST,3.166670083999634
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802030717_69c32409-0b21-4598-b7eb-d67101dcd2d8.png",Lanches,4.9,30,1.86,Moto Café,CHEAP,3.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901231450_f1184d41-334b-4404-a843-5b9dc1ef5d34.png",Brasileira,0.0,45,2.97,Guiardino Romanini,CHEAPEST,2.8175699710845947
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901282010_e7e9f0ff-ec53-4408-9689-4bac7ba8aaca.jpg",Italiana,2.0,50,2.36,Cantina Possetti,MODERATE,2.636359930038452
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812071058_6d607b7c-fdfd-48f6-a885-4a07e760f71f.jpg",Lanches,4.0,45,3.85,Bros Burguer,CHEAPEST,2.428570032119751
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/000dccce-d626-4d75-82c6-da15353bc7e2/201905021610_2XTN_s.png",Japonesa,5.0,60,2.96,Kioshi Sushis Delivery,MODERATE,1.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_famil_zari04.png",Pizza,3.0,35,7.42,Família Toscana Pizzaria,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201705280919_1383c65b-3003-4136-9450-5958b5f625e1.jpg",Lanches,6.0,50,9.06,O Poderoso Lanches,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/914e1f27-e968-4b48-b2a8-3b4798037d60/201806131028_4c2ad.jpg",Brasileira,6.0,40,5.43,Cantina Dluca Delivery,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201712131103_1f053d1c-991c-4cff-9cdf-354d1075a99e.jpg",Brasileira,4.5,45,2.86,Sucla Refeições,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/fastfood_exotikosushi.png",Japonesa,6.0,50,1.6,Fast Food,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo primos_primosburger.jpg",Lanches,6.5,55,7.44,Primos Burger,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_kibatattas.jpg",Variada,6.0,60,4.71,Ki Batattas,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/japansei_japansei.png",Japonesa,5.0,50,1.55,Japansei,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_chefs_entos.jpg",Brasileira,5.0,50,2046.67,Chef S Buffet e Eventos,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/fe62d49b-7bf8-4060-bbf4-b5f0aabcfcd6/201710161119_divin.jpg",Cozinha Rápida,3.0,45,5.72,Novo Divino Sabor,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo marca_f4hfood4hero.jpg",Saudável,5.0,50,3.46,F4h - Food4hero,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bar do alemao_bardo_ampos.jpg",Variada,11.0,40,3.59,Bar do Alemão - São José dos Campos,MOST_EXPENSIVE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo skina_skina_onete.png",Variada,5.0,60,2.52,Skina Mix Restaurante e Lanchonete,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201701101703_PIZZA_AGRAO.png",Pizza,5.0,45,4.8,Pizzaria do Magrao,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201703091730_MAXIMUSPIZZA.png",Brasileira,8.0,60,3.83,Maximu's Pizza,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201703271030_35c7dca33b2947c888cedac0ddfec97d.png",Lanches,5.0,45,3.73,Nosso Lanche,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201705181028_b69d46be-1bb3-4bd6-bf3b-b09f61b8fb21.png",Lanches,5.0,70,3.4,Bokao Lanches,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201707031142_d28db43b-08b9-47f7-aab9-689219078adf.png",Pizza,6.0,60,6.1,Pizzaria  Oba,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a75a3993-b9a9-46b7-8e93-9f7a24945cda/201801191708_logo0.jpg",Lanches,7.0,75,4.33,Minicalzones.com,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201707190901_669041e8-9d82-41bd-9cf3-1558f58019ff.png",Lanches,5.0,60,5.46,João Batata- Batatas Fritas,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/36496d29-e0a9-4b84-873a-bddcde28b48c/201809152324_fotop.jpg",Variada,6.0,50,4.58,Bavi Salgaderia e Confeitaria,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201709041328_96114613-b472-4b83-8337-bf0f49e84073.png",Brasileira,5.0,45,3.13,Restaurante do Capone,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201711231250_b83563bd-f45a-4f7a-b9f6-dd3a93d3909b.png",Cozinha Rápida,0.0,60,3.74,Frangó Chicken Crocante Sjc,MODERATE,4.472599983215332
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d0d71512-28bf-42ff-a8e0-70d713f777cf/201902201329_logoc.png",Lanches,0.0,60,4.85,Come Come Burguer,CHEAP,4.466670036315918
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_HIOKI_AMPOS.png",Japonesa,6.0,40,0.99,Hioki Sushi - São José dos Campos,MOST_EXPENSIVE,4.465909957885742
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/Screenshot_8_BAITABURGER.png",Lanches,7.0,20,2.73,Baitaburger,CHEAP,4.464000225067139
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/1707d01d-3a19-4dd7-af0e-6cc0f9cdcbb7/201812161842_pizza.png",Pizza,6.0,40,1.37,Pizza Quadradonna,MODERATE,4.463769912719727
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/f3e8dce2-80b3-4b05-b079-755785d08a3b/201808182211_111.jpg",Pastel,6.0,50,3.97,Artesanal Pastelaria e Panquecaria,CHEAP,4.463640213012695
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/0b2bdf4b-d215-4192-99c3-b6b397028fec/201904172009_sj2P_2.png",Lanches,4.0,50,2.27,Cabral Lanchonete e Pizzaria,CHEAPEST,4.461540222167969
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803281923_925225c7-3fc7-47d9-9f62-b4952728d1b2.png",Brasileira,3.0,35,2.39,Arena Beer,CHEAPEST,4.461540222167969
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901151924_31e7aded-b870-41bf-a459-843df0ea8351.png",Salgados,4.9,19,1.01,Candinha Salgados e Cia,MODERATE,4.461540222167969
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201709191558_ca2ddd2f-0bf7-49bc-8992-083672d7e44b.jpg",Árabe,0.0,70,0.99,Haruf Kebabs e Especialidades Árabes,MODERATE,4.45782995223999
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/37324930-29e4-4a2e-b6cd-5ff5d27d75a8/201809271937_42617.jpg",Pizza,7.0,50,4.37,Kiko Pizzaria e Lancheria,CHEAP,4.456930160522461
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a6b05344-e51d-4168-80cf-5784ce7a5fe6/201902110102_image.jpg",Lanches,5.7,55,4.45,Ritchellus Acai,CHEAPEST,4.453420162200928
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/093b8345-7b90-476e-8b27-55d9fa8f3e0f/201904091948_Jqh2_.jpeg",Brasileira,8.0,50,5.2,Restaurante e Pizzaria Castilho,CHEAPEST,4.451610088348389
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903112040_b6b19125-d3be-4e50-ba26-5e003fb1f29c.png",Lanches,4.9,29,3.0,Mammuth Hambúrguer Artesanal,CHEAPEST,4.43966007232666
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901251353_463620f1-bea3-440d-849f-f7adaa5b4c51.jpg",Pizza,4.9,26,2.89,Bom D+ Pizzaria e Lanchonete,CHEAPEST,4.4395599365234375
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902131356_9f306fc0-6b53-40bc-b8f1-5f264369adfa.png",Lanches,5.0,40,3.69,Renatinho Lanches e Açai,CHEAPEST,4.439020156860352
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201703240832_f5f4c356ea0f468687749313624ba577.jpg",Brasileira,3.0,40,2.52,Friggideira Sabor e Cia,CHEAPEST,4.438360214233398
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901152031_304a1a27-61c6-4ac3-8528-ee1f48153f93.jpg",Lanches,4.9,27,1.24,Upi Burguer,CHEAP,4.4375
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/0c6e07fe-38ec-4ee6-a4a6-ff00c1e043b3/201901102324_image.jpg",Lanches,6.0,60,4.62,Ribas Batatas Recheadas,MODERATE,4.4359002113342285
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201705081644_43227040-2b7b-4ac6-9529-86afe7c4b652.jpg",Lanches,0.0,85,2.22,Quero Mais Lanches,CHEAPEST,4.434209823608398
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812071523_b574d751-e87e-4f23-bb0e-ddef697e718b.jpg",Lanches,4.9,25,4.43,Kairos,CHEAP,4.431029796600342
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808272146_d25aab29-ae7f-4b6f-898d-949044186fa0.png",Saudável,0.0,40,0.99,Br Fitness Delivery S J dos Campos,CHEAPEST,4.430409908294678
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde//1075x500x500_SEOYAKI.png",Japonesa,4.0,50,2.73,Seoyaki,MODERATE,4.421050071716309
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201804171842_2d730ef5-4e67-4abc-b495-0010403ef908.png",Pizza,4.0,30,2.06,Manhattan Pizzaria,CHEAP,4.421050071716309
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901160856_5b29cc21-edf8-4cd9-a000-11678624974f.png",Marmita,4.9,26,1.41,Santo Cardápio,CHEAPEST,4.421050071716309
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803271613_e3fb62a6-9229-49f7-8cde-a7e9746baec9.png",Brasileira,3.0,40,2.55,Restaurante Sabor do Centro,CHEAPEST,4.420289993286133
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901041632_e173b9fc-2124-4eac-9ebd-4d4cabbef83c.png",Lanches,4.9,21,2.56,Lanchonete Rodoviária,CHEAPEST,4.416669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9c443233-661b-40b0-9ce4-8391f8caaf70/201901241733_foodt.jpg",Lanches,0.0,60,3.04,Food Truck Brasil,CHEAPEST,4.415090084075928
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/54718564-13a8-4395-b133-8012c753802f/201807281620_calca.jpg",Lanches,0.0,80,3.04,Hamburgueria Brasileira,CHEAPEST,4.4145097732543945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808011707_38e48e1b-0499-406a-a1ea-3f380d6b87ee.png",Variada,7.0,80,4.73,"Pc Panquecas, Pastéis e Caldos",CHEAP,4.413790225982666
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902121113_482a1d4b-3766-4dc6-8563-9f3a2c0b1fe4.jpg",Lanches,2.0,50,4.15,Ki_burgao Lanches,CHEAPEST,4.407410144805908
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_yakip_ental.jpg",Japonesa,6.5,40,6.1,Yakipanda Culinaria Oriental,CHEAP,4.400000095367432
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201709080900_6acb3edf-e2ba-4060-a83a-407701090478.jpg",Brasileira,2.0,60,3.15,Colonial Refeições Restaurante Beer,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201709090808_8c8a5970-9f15-469a-9763-8671f4c95b84.png",Variada,6.0,45,5.59,Padaria Uirá,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201709191243_c024f9c3-4b93-4e91-b1f2-ea9bc4ba3c7a.jpg",Brasileira,2.5,30,5.08,Marmitaria Skina Mineira,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a31e0a3a-09c0-4097-a348-4482fd74a3aa/201901101141_28684.png",Chinesa,5.5,40,1.37,Lig-lig - São José dos Campos,MODERATE,4.597879886627197
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901121634_6533d308-adc9-41a9-aa22-b4bbd3cdfe71.jpg",Lanches,0.0,24,1.55,Mordidela São José dos Campos,CHEAPEST,3.916800022125244
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901080957_5948cb20-c93d-4144-a566-ff2c9717d7f9.jpg",Açaí,0.0,18,1.38,Açaí Concept São José dos Campos,CHEAPEST,4.612979888916016
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/ae2d55a0-27cf-4b47-9c80-e77f423e2825/201904231802_Pboe_l.jpg",Lanches,6.0,60,2.45,Croasonho - Vale Sul,MODERATE,4.612170219421387
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/Big Picanha_BIGXP_RVALE.png",Lanches,0.0,59,2.27,Big X Picanha - Center Vale,CHEAPEST,4.6008100509643555
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5d9a19a7-28f5-479a-9058-39abc817b972/201902271506_logob.png",Saudável,0.0,22,1.07,Boali Shopping Colinas,MODERATE,4.539090156555176
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808141822_7d4fd599-e08f-465a-ae24-8ce8fa863d67.jpg",Italiana,0.0,23,1.07,Spoleto - Colinas,CHEAP,4.524179935455322
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902191254_25843479-ef61-4725-86d1-2638007efdbe.png",Lanches,4.9,30,1.02,Subway Nove de Julho,CHEAPEST,4.473259925842285
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201708181605_58d4f0c8-4a4e-4ef1-9be1-aa0e929d2b37.bmp",Chinesa,7.0,35,1.38,China in Box - São José dos Campos,MODERATE,4.466969966888428
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/dc2b98dc-b528-4ed5-9054-71e2a86a131b/201809042134_logod.jpg",Saudável,4.9,22,1.07,Dna Natural - São José dos Campos,CHEAP,4.390860080718994
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/Logo McDonald_MCDON_DRIV16.jpg",Lanches,0.0,33,1.08,Mcdonald's - Colinas Drive,CHEAP,4.534800052642822
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201709201123_fd9de072-4d88-4a8f-9a1e-3812c766cd6a.png",Lanches,0.0,100,3.23,Lanchão & Cia São José dos Campos.,CHEAPEST,4.452569961547852
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901281321_52364f42-35f6-46e5-be2d-3a8aca8a3db9.png",Brasileira,4.9,24,1.02,M & M Poulet,CHEAPEST,4.22750997543335
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801241023__HABIB_OSEII.jpg",Lanches,8.9,35,1.86,Habib's - São Jose II,CHEAP,4.189239978790283
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904181904_3bf789d6-281b-4137-9fa3-ea570582fe9b.png",Brasileira,4.9,44,2.59,Montana Grill - Centervale,CHEAP,4.1734700202941895
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7d17c57d-6c86-4c4d-8256-d56158afb592/201902261352_logo.jpg",Sorvetes,4.9,40,1.07,Freddo - Shopping Colinas,CHEAPEST,4.142859935760498
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902060816_c2e8e53c-76ed-44fc-9ac0-545b7aee51c6.jpg",Italiana,4.9,24,1.07,Patroni - Colinas Shopping,CHEAP,4.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201810241555_c9f81473-b0d6-4ce9-b388-94b31d0c57e9.jpg",Frutos Do Mar,0.0,34,2.45,Vivenda do Camarão - Vale Sul,CHEAP,3.985069990158081
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802041743_9bd8c828-f078-45f7-a625-176b3408c964.png",Italiana,4.9,26,1.02,Amicci Anchieta,MOST_EXPENSIVE,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b53c1508-d342-4a2e-95a0-b6fc796e7695/201904261602_9znk_l.jpg",Italiana,9.0,80,6.07,Vale Massas e Assados,MODERATE,3.799999952316284
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902071847_20df4312-00a7-4256-ae3e-cc008718fbc7.jpg",Brasileira,4.9,28,2.08,Marchetti Bar Restaurante Eventos,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902111021_bb65ac77-c953-4195-934d-aff47f2ff226.jpg",Vegetariana,4.9,31,3.84,Cerealista Sonatural,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902101619_9dfb3391-9699-4a30-8843-3bf2f19ab0ed.png",Brasileira,4.9,40,1.1,Avelina Bar e Restaurante,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902212149_faff44eb-8fbc-4404-8a04-0fc52b18817e.jpg",Italiana,4.9,60,3.02,Rei das Massas,CHEAPEST,4.444439888000488
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/1942c7ee-1c2e-4498-b0f2-d4c547acb818_BARBA_RVALE.jpeg",Italiana,0.0,55,2.27,Barbaresco Center Vale,EXPENSIVE,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902261626_6eee8637-de32-4198-8508-1d6619423311.png",Brasileira,4.9,40,1.8,Casa Doce Padaria,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/89da4a34-6c8f-4c34-ba91-0fcf5eacf7db/201905032150_ZEzJ_l.jpg",Brasileira,2.0,35,2.67,Duque's Restaurante,CHEAPEST,4.428569793701172
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904211615_fe7a51d1-f116-4d0f-8810-0dae51458304.jpg",Brasileira,4.9,60,2.62,Griletto - Vale Sul,CHEAPEST,4.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903081258_bb2b4084-b09c-44df-ac3e-82098f5cc69d.jpg",Saudável,0.0,50,3.61,Bluelight,CHEAPEST,4.400000095367432
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/6494f053-fda2-4b65-abd3-6a55a6b39d0b/201903181611_image.jpg",Bebidas,8.0,90,9.88,Adega Tá na Mão,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/f06f2256-969b-4801-a66e-db4e87b393a1/201903201102_imag.jpeg",Bebidas,4.9,40,1.0,Beramar Conveniencia Esplanada Ltda,CHEAPEST,4.444439888000488
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904111242_3804ca50-9ce0-4671-a169-07df6d3bbb42.jpg",Marmita,4.9,60,3.34,J.tempero Brasil,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/33219e5b-ab3f-4efa-be31-de6f5d61638a/201904121633_P7em_i.jpg",Lanches,5.0,65,7.56,SANDUBA'S LANCHES,CHEAPEST,4.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904191531_28a58597-411f-447f-b3b8-aec1bb7d8cd8.jpg",Marmita,4.9,60,3.95,Ponto da Quentinha,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bde7432f-77b8-4a78-a876-9abcbaab0396/201904181323_L2Lr_i.jpg",Lanches,0.0,40,0.38,Tiozão Lanches,CHEAPEST,4.199999809265137
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b86a0a0d-34bd-4791-86e1-c2057e2dc53e/201904260146_s0i0_f.jpg",Pizza,7.0,70,4.2,PIZZARIA & LASANHARIA CABRAL,CHEAPEST,4.548389911651611
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b78c838b-366d-47cd-828c-fc3d740ceb92/201904191839_EnwE_i.jpg",Brasileira,9.0,70,6.72,Feijoada da Sosô,CHEAP,3.714289903640747
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/2fefac68-1a82-4fe4-ac8e-4d8592d090cd/201904222152_pqHq_5.jpg",Lanches,5.9,55,3.71,Borges Lanches e Açai,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9337892a-28e3-481f-acd8-ac36ec5ac733/201904181808_P1gn_.jpeg",Lanches,0.0,60,3.18,Topburguer,CHEAPEST,4.705880165100098
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/50bbb8a0-c397-4d73-90ca-a836ecd2bcfb/201904241119_neNo_i.jpg",Pizza,5.0,60,8.79,Dona Telo Pizzaria,CHEAP,4.714290142059326
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904252131_e5b20770-7da9-4937-812b-c315d232482a.png",Salgados,4.9,60,3.84,Bom Salgado,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904252016_398bcd0c-06ed-405c-983d-5b2bee46907f.png",Brasileira,0.0,60,3.84,Villarejo,CHEAPEST,3.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/f18a94c1-edd0-45c8-b87a-68fa6a08b8eb/201904251205_CIhg_i.png",Brasileira,4.9,60,2.99,Restaurante Delicicias da Vovo Neide,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9362fe41-cb4f-42b5-838d-b860bc5f78ed/201904252249_5Ozq_i.jpg",Lanches,5.0,70,10.73,Jk Delivery,CHEAPEST,4.5
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/528cefdf-d03b-41ce-89f1-e464c38a3376/201904291554_7W5m_i.png",Doces & Bolos,4.9,40,2.35,Harvest Brasil,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201905011200_ac5e280b-4af9-4bbd-8fc9-79d10ad83406.png",Pizza,4.5,50,3.05,Rurale Pizzaria e Emporio,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/75414b97-baa4-4e15-bc72-e10a26db749d/201904291733_VkaL_i.jpg",Doces & Bolos,4.9,60,4.29,Si Bolos Doces e Salgados Jd.Ind,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/27290db7-28ba-40e2-bf06-05c77ab0faaa/201904292024_KaPc_i.jpg",Conveniência,8.0,90,7.71,Empório Videira,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904301609_d7c7af4d-0869-479f-801e-76fef453c0de.jpg",Lanches,5.0,60,3.99,Lanchonete do Patrão,CHEAPEST,4.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7767b4f3-cc0a-4781-9952-b6a241576a6b/201904292114_omVR_i.jpg",Marmita,9.0,80,7.39,Nosso Jeitinho,CHEAP,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a4cb79b7-8c7b-413d-8aa1-9cf4455a4bb5/201905011450_MNPa_.jpeg",Doces & Bolos,7.0,80,6.01,Cantinho Expresso,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d018e92b-97b9-4786-9e92-3b23b8e412fb/201905021540_TD5Y_.jpeg",Vegetariana,0.0,25,4.13,Família Verde - Cozinha Vegana,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201805111236_8a642919-3d51-4a03-9ba1-7666ca1ed171.png",Lanches,6.0,50,4.98,"Tô em Casa Bar, Lanchonete e Petiscaria",CHEAPEST,4.551089763641357
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5e06ad2d-921e-4602-882e-3ee786531c35/201902111238_image.png",Saudável,10.0,120,11.98,Loja Flor de Maia Produtos Naturais,CHEAPEST,4.930560111999512
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bb40142a-fd98-46e1-8b9f-49a6516f41c6/201903141915_novol.png",Lanches,4.9,23,1.49,Frankfurter,CHEAP,4.918749809265137
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903132005_a147a602-62dc-4584-bdbc-a676bacfa110.png",Lanches,4.9,80,2.16,Kanto da Tapioca,CHEAPEST,4.916669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809201151_52819b62-dc68-41fc-93e9-8a0ddbeb9483.png",Árabe,8.0,80,3.8,Grao Falafel,CHEAP,4.915890216827393
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/ccceba5b-c522-4e6f-84c4-7d00d5b37044/201903221120_senza.png",Marmita,5.9,30,1.15,Feijoada Senzala Marmitaria e Lanchonete,CHEAPEST,4.90625
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201807231131_1da78852-7e57-4302-a305-ec2e464d2491.jpg",Lanches,4.0,60,3.24,Tatu Lanches,CHEAPEST,4.9032301902771
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903011455_d5dae9c9-e145-4357-b3ae-60d1480f843a.png",Lanches,4.9,60,4.46,Hamburgueria Porto do Cais,CHEAPEST,4.900000095367432
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d47cad0a-fd64-4361-9ed7-f679c478c630/201902251153_image.jpg",Brasileira,4.9,50,7.22,Pamonharia Cultura Mineira,CHEAPEST,4.893620014190674
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201711191052_9b98d9a9-537c-48cb-b91a-772675cdcafb.png",Pizza,6.0,50,3.33,Vieira´s Pizzaria Delivery,MODERATE,4.400000095367432
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808020853_9a0fcea2-e85b-4363-af9d-15ccec94d425.png",Lanches,7.0,60,4.56,De Vento em Polpas,CHEAPEST,4.394740104675293
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811061004_69ecbf97-9f53-49b5-bf96-d95363b7daf0.png",Japonesa,4.9,34,2.68,Wa! Temakeria,MODERATE,4.393620014190674
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811061253_8636a5ec-5173-407d-8fbb-12030a559c6a.jpg",Brasileira,2.0,40,2.96,Irmaos Monteiro Lanchonete,CHEAPEST,4.392859935760498
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7b825df6-3a0a-4140-90c9-92f1e812595b/201807281957_sfdsf.png",Lanches,4.9,24,1.39,Vish Maria,CHEAP,4.391300201416016
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo (1)_tirul_nches.png",Lanches,9.0,50,5.49,Tirula's Lanches,CHEAPEST,4.384769916534424
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/37f5ab17-6df3-4405-a3cf-c50331e4c13f/201902141634_desig.jpg",Pizza,6.0,50,3.54,Pizzaria Ateliê,MODERATE,4.382979869842529
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802161744_7cbb696a-6744-44e0-a33d-c7eb1433e3b0.png",Lanches,4.9,29,1.38,Due Bar Bistro,MODERATE,4.382349967956543
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/78440ffb-dca4-4970-9441-a30172fb695d/201808250305_logoi.png",Lanches,7.0,70,4.52,Ritchellu's,CHEAPEST,4.379630088806152
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/3ab048d3-67a1-4727-9a17-768e449e568f/201802220851_logoi.jpg",Variada,0.0,35,3.23,Chef Tarrasco,CHEAPEST,4.3794097900390625
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201704180908_194c06e8-1b66-4ffa-805e-d4d0c9f53a5a.jpg",Pizza,5.0,45,3.84,Pedy Pizza,CHEAPEST,4.375
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903261947_f220ae49-1c76-4d3e-8db1-83f85fd9b419.png",Pizza,4.9,40,1.31,Itali Genils Pizzas,CHEAPEST,4.375
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901152032_ae133e9d-666c-487e-bc62-a215e736cad8.jpg",Japonesa,8.0,80,5.04,Seiko Sushi,CHEAP,4.373740196228027
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo nobres l_nobre_iver01.png",Pizza,6.0,65,3.56,Nobres Levitta Pizzaria Delivery,MODERATE,4.371429920196533
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/e2c05fab-18af-4c07-8ef0-d09626d3a69e/201903211823_what.jpeg",Lanches,4.9,60,3.4,Hamburgueria Brasileira,CHEAPEST,4.368420124053955
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5c64b0d6-bc17-4e26-a756-0af11d39a862/201902021652_51567.jpg",Chinesa,6.0,100,5.02,Ukon Yakissoba,CHEAPEST,4.36283016204834
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201710121518_5a9d609e-3718-45cb-9b0f-b9a771afaff9.png",Saudável,6.0,65,3.01,Nutrimajijo,CHEAPEST,4.359039783477783
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803131604_d07b919f-db1c-43a4-8af8-2f609995d254.png",Bebidas,4.9,24,2.22,Filémiau - Centro,EXPENSIVE,4.357140064239502
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201707081054_3097e2b4-ad37-460f-af40-95b099475736.png",Brasileira,3.0,60,3.05,Tempero Carioca,CHEAPEST,4.356639862060547
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/1def0bce-756b-47b1-a026-b72c9050dd3d/201802102013_imagen.png",Brasileira,8.0,60,11.54,Casa do Acarajé,CHEAPEST,4.35483980178833
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/10e24aa3-5319-412b-b341-ddd2a0a5ce10/201711231855_00log.png",Lanches,7.0,50,9.31,Burger Food Delivery,CHEAPEST,4.351650238037109
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_rusti_aebar.jpg",Lanches,0.0,50,4.75,Rustick Hamburgueria e Bar,MODERATE,4.351349830627441
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7dceb4fd-ddbf-442a-9120-f1b023b9f214_DEGUS_ASTEL.jfif",Pastel,0.0,60,5.75,Degusta Mini Pastel,MODERATE,4.349400043487549
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/4bee8cc8-1df7-454e-9fa1-5d94996f7c30/201806201912_13177.png",Pizza,7.0,40,9.11,Najab Pizzas,CHEAP,4.3473100662231445
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/c19c890a-a379-4d69-b08d-6827432b477f/201904121725_S2IX_.jpeg",Lanches,9.99,65,8.72,Lanchonete Bom Barato Gostoso,CHEAPEST,4.34375
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logopizza1_li_LIGUEPIZZA04.jpg",Pizza,4.0,40,0.7,Pizza1 - Esplanada,MODERATE,4.3421101570129395
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/3e44cd93-c5b3-4218-a913-964b4bb85756/201903082002_what.jpeg",Lanches,6.5,50,3.16,Abrone's,MODERATE,4.333330154418945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201711130634_a62de4b6-7cbe-48c5-9f65-3d1ef4316e0a.jpg",Pizza,0.0,60,2.73,Marios Pizzaria,CHEAPEST,4.333330154418945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201705020912_4c647c6b-5577-46cb-817e-e8f5e51c8ce7.png",Lanches,8.0,90,3.52,"Kero Shake & Açaí, Hambúrguer e Pastel",CHEAPEST,4.330880165100098
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/31af25ed-0a17-433c-9901-ae81c56f2e43/201903201633_fb_im.jpg",Lanches,8.0,40,8.22,Balbinos Burguer e Marmitaria,CHEAPEST,4.329790115356445
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902181029_3539db81-af80-4ed1-a956-fa994b4caaf1.jpg",Lanches,0.0,50,3.16,Trilha Lanches e Açaí,CHEAPEST,4.327670097351074
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901091920_9c1d3d6f-37e9-437f-a371-28f0219f15a0.png",Árabe,4.9,31,2.23,O Esfiheiro,CHEAP,4.327270030975342
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/12b8888a-0932-462c-957a-8ce7ee106313/201902050927_image.jpg",Pizza,3.9,65,4.94,Hot Pizza,CHEAP,4.326920032501221
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde//931x500x500x_EASYPIZZA.png",Pizza,6.0,64,3.23,Easy Pizza,MODERATE,4.323860168457031
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201711131731_05a57e46-c423-45c0-8b3e-2faa2477dd73.jpg",Pizza,0.0,80,5.05,"Shekynah Pizzaria, Lanches e Açaí",CHEAPEST,4.323019981384277
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201810191905_966ea41e-b7ce-4bc0-870c-0a30b867b9f4.png",Sorvetes,4.9,23,4.89,Veronato Sorvetes,CHEAPEST,4.677420139312744
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902201934_31f8866d-d20b-4719-b1bd-9cb376b1f764.jpg",Brasileira,0.0,40,1.5,Restaurante Sirva-se Bem,CHEAPEST,4.676809787750244
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/e1a72d53-db5d-4e94-b98c-89e55164a032/201902200125_pizza2.png",Pizza,0.0,60,3.97,Divina Pizza,MODERATE,4.671999931335449
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811161840_da1a78e4-11d8-4192-a264-e7014fbc2514.png",Italiana,5.0,40,2.99,Dia a  Dia  Italy Express,MODERATE,4.666669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901101004_bf77b2b0-86a2-430b-84cd-a9eaf85b31a6.jpg",Pizza,4.9,32,2.61,Pizzaria Prato Quente,CHEAPEST,4.666669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901291617_49af9408-eb73-477e-b66d-954a78caceef.png",Japonesa,4.9,27,4.24,Yaki Grill,EXPENSIVE,4.666669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/de61a1ff-77c7-4649-915a-93e85918ba96/201904111442_2Qfi_.jpeg",Brasileira,7.5,80,6.66,Empório Jordão,CHEAPEST,4.666669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/2af63632-057c-42e7-8a47-9501b720f7dd/201902271911_image.png",Japonesa,7.0,70,4.63,Yuki - Culinaria Oriental,CHEAP,4.666669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/02ed5061-7dcb-4ffa-a4d5-df584a0d42a0/201902222158_feito.png",Lanches,6.0,80,5.5,Vira Lata Hamburguer,CHEAPEST,4.660709857940674
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d212c1aa-829a-48cb-85b6-2a51bc5ac025/201902270939_scree.png",Salgados,4.9,29,1.46,Bolinho Caipira Vovó Glória,CHEAPEST,4.659999847412109
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902110839_98101379-bc83-4a7c-9a7e-b6bce2ac20de.jpg",Pizza,4.9,50,3.26,Pizza Encasa,CHEAP,4.65625
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/ea3911f0-2164-4470-8fc3-d8cf88622876_PARAI_OACA05.png",Açaí,4.9,28,5.36,Paraíso do Açaí,CHEAPEST,4.650430202484131
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809220849_7744c071-b4a7-490d-ba82-3f2d051370a3.png",Pizza,3.0,55,4.27,Império Pizzaria,MODERATE,4.648029804229736
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901251704_0cfcc7bb-9e45-412f-816c-c7cd9bf17a00.png",Lanches,4.9,25,2.81,Ki Lanchão.com,CHEAPEST,4.647459983825684
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901301326_37feea14-f173-4c78-8dc3-ec662a9cf4a3.png",Brasileira,4.9,30,3.59,Restaurante Jk - Delivery,CHEAPEST,4.647059917449951
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902221416_8fea6e88-eff8-43be-b1d1-422750d9da22.png",Pizza,4.9,60,3.0,Pizzaria Zero Doze,CHEAP,4.647059917449951
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902121701_1b4a487e-efbc-48d3-9162-f294b4ddaf85.png",Brasileira,0.0,23,2.43,Mais Sabor Restaurante,CHEAPEST,4.644410133361816
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901111030_0205fb11-beef-49a1-bfd8-5a65d85b0662.png",Brasileira,4.9,23,1.85,Cafe Metropolitan,CHEAPEST,4.642859935760498
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/60d8fc9c-7c51-40bb-91fe-d60847bdd484/201804181209_2c579.jpg",Saudável,10.0,90,6.29,Hamburgueria Slim,CHEAP,4.6410298347473145
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d403f927-b5de-4246-ba49-d2e65fb4c774/201901102321_image.png",Carnes,0.0,45,4.08,Xuxu Porções,CHEAPEST,4.6410298347473145
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/6b7966dd-18e4-4be0-a608-35bb198d6e2e/201901072032_dcfdd.jpg",Pizza,0.0,60,3.95,America Pizza,CHEAP,4.640769958496094
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7aa54cb5-dc02-4df7-8993-88c09233c72b/201904132309_JqCD_.jpeg",Pizza,7.0,40,4.18,Almazen Pizzaria,CHEAP,4.639999866485596
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5847f11e-6d24-465e-a400-1fca269bccbd/201903271901_iTta_i.jpg",Lanches,0.0,59,5.58,Speed Lanches,CHEAP,4.639999866485596
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d8fbd022-6c5f-4b1f-930f-ad18f467cd6c/201808271104_ifood2.png",Brasileira,4.9,18,0.37,Mauá Restaurante e Pizza,CHEAPEST,4.639100074768066
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9367cf29-875e-4b07-8026-e6db3cc67ad9/201904160027_2FON_8.jpg",Lanches,9.99,65,5.46,Lanchonete da Vila,CHEAPEST,4.638730049133301
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/c661e10d-48b3-446e-b3fd-b16d0310e6eb/201809071803_pp.jpg",Variada,5.0,40,3.85,Samu Porções,MODERATE,4.6376800537109375
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902121947_ada3de5a-ec71-43e7-99cb-5d0efe319c8c.png",Pizza,5.0,60,3.08,Pizzaria Giga,MODERATE,4.636360168457031
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903062025_a9a378eb-6b1d-4d8c-bf9d-462867a376c0.jpg",Cafeteria,4.9,40,1.09,Goá Café,CHEAPEST,4.636360168457031
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811211236_cea2f213-4f44-4dd0-b17f-83420f29e38d.png",Japonesa,4.5,40,3.46,Akitêm - Culinária Oriental,CHEAPEST,4.63415002822876
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201810100740_2ec29df0-bd74-4532-acaf-797078202287.png",Pizza,4.0,35,3.72,Patronessa Pizzaria,CHEAP,4.632810115814209
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5b8fa3b6-f665-440d-9530-7ab8ce0b5d6e/201812081758_44031.jpg",Pizza,6.0,45,6.07,Pizzaria e Esfiharia Tropikal,MODERATE,4.632110118865967
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9c387254-ad46-4b06-81d0-fd9d145cb505/201808200945_logob.png",Lanches,0.0,45,4.0,Hamburgueria la Casa,CHEAPEST,4.629030227661133
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901181656_87992331-9c5c-4b2a-be6a-e67e2adc5bbc.jpg",Pizza,5.0,60,3.73,Pizzaria Caprichos II,MODERATE,4.628210067749023
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803141451_eb2c0d3b-99ce-4fb8-8492-57b0b3c1f12a.PNG",Lanches,9.0,80,6.19,Altas Horas,CHEAPEST,4.626969814300537
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/masseros_osmas_dyana.png",Pizza,6.0,40,1.37,Os Masseros - Vila Adyana,CHEAP,4.616390228271484
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bf1b1210-2908-4d40-a37b-5d12618c2322/201903182115_image.png",Brasileira,4.9,40,1.17,M Bar & Cozinha,MODERATE,4.800000190734863
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903181752_e5f39065-1a89-4d7f-9532-c4f9ac55538c.png",Brasileira,4.9,60,4.18,Jardim dos Pães Padaria e Empório,CHEAPEST,3.875
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/8f998877-546a-421b-bff7-069b5d877f4b/201904051632_JhMW_i.jpg",Sorvetes,9.0,80,7.05,Doce Mania Sorveteria,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/dcbf5c89-35b7-42d6-9323-d812b7c94153/201904021002_G2f9_i.png",Marmita,4.0,100,12.32,The Noite Marmitaria,CHEAPEST,4.400000095367432
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/58359d0d-34e6-4695-894c-0f9e8458ce9d/201904051327_PePA_i.jpg",Bebidas,15.0,30,9.53,Adega Delivery,CHEAP,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/fb3e85ac-81b0-4ec2-a757-4efbbeb93378/201904131100_ezaF_i.png",Saudável,7.0,60,3.46,Healthy Food 100% Fit,CHEAPEST,4.666669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904111053_1ca02e70-5b7a-4531-8bc5-7a81a3f352cb.png",Brasileira,0.0,40,1.28,Deli Cassiano,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904261954_ad1638ae-f42c-4cd3-87fb-020b2c4e1c1e.png",Japonesa,4.9,60,2.63,Japa Ja,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/eb630463-34cc-46c3-902a-d1c8fd65f4b1/201904231524_5UXX_g.png",Brasileira,4.9,60,2.63,California Chicken,CHEAPEST,4.4375
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/3558f1e2-278e-4c54-ad20-c489750dbf93/201904222008_ezTW_l.jpg",Japonesa,6.0,50,2.69,Wa! Temakeria,CHEAPEST,3.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904211412_b26ab24a-0ea8-46ac-b6f0-a482dcc5b955.jpg",Lanches,4.9,60,3.71,Dog Store,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a9277d53-a142-494a-aa86-d1647dd62fa6/201904241114_zepo_.jpeg",Brasileira,4.9,60,2.65,Dona Jandira,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/2a5404ab-a7c1-4499-a5e8-cd45fcb2f321/201904231706_9aac_i.jpg",Lanches,7.0,60,5.55,Fast Food Krueger,CHEAPEST,3.826090097427368
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904221830_3ea887f5-3919-45cf-88c2-eb032e2a52cd.png",Açaí,5.0,55,4.82,Açaíteria do Monstro,CHEAPEST,4.275360107421875
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904252149_ce632dfb-174a-4df4-9ddc-57208b9fddb8.png",Açaí,4.9,54,4.07,Sorvetes Flórida e Açaí - Jd. America,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/4d11cad4-aa5c-4b2d-aeb4-de93e4fa52b8/201904241147_ZpGN_i.jpg",Bebidas,6.9,60,3.75,Adega Garcias's,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904261223_eb5f641f-e747-46cf-b933-00cb2545a76c.png",Marmita,4.9,62,2.99,Restaurante Paulista,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9576c683-0ccd-44de-a3c9-cee945a6c70b/201904291733_VdIu_i.png",Lanches,5.0,55,4.82,Açaí do Keke,CHEAPEST,3.7692298889160156
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904161921_e3335bac-fe45-4903-a322-bfcd2f0f309f.png",Japonesa,5.0,60,4.17,Bentôs Raro,CHEAP,4.806079864501953
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901151759_aac171aa-587d-47bd-9ef8-1fec4d30191f.jpg",Saudável,0.0,20,3.39,Açaí do Gênio,CHEAPEST,4.7788801193237305
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201804181527_e05e32a6-e156-4e94-828d-74080c03e875.png",Cozinha Rápida,4.9,24,2.1,Natureba Açai- Ademar de Barros,CHEAPEST,4.764420032501221
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/3b0bd233-7631-48e0-b830-b9eb654ecc28/201810152029_moah.png",Açaí,4.9,17,0.37,Moah Açaí Shop,CHEAPEST,4.763750076293945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bdf1f591-f130-4313-90ec-8dc6fac71a3b/201805081138_logop.jpg",Lanches,4.9,26,2.2,Pasterello,CHEAPEST,4.751200199127197
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901301800_96f0d728-dd9a-47b5-8cfb-669af6b1ce37.jpg",Brasileira,4.9,30,2.52,Big Potato,MODERATE,4.7025299072265625
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811241753_1e242be3-6773-40b4-ba04-9434a42e2a89.JPG",Brasileira,4.9,27,3.23,Restaurante Ellibella,CHEAPEST,4.700819969177246
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/39442702-46ec-4d4c-b91d-d739e74e5231/201903201403_photo.jpg",Saudável,4.9,43,1.04,Canteiros & Temperos,MODERATE,4.821430206298828
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201807231143_e679b653-206b-4976-bfa3-91afa027e4dd.jpg",Saudável,4.9,35,6.32,Nosso Açai -  São José dos Campos,CHEAPEST,4.785709857940674
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5ec0b07f-fb30-47c5-a552-75b404cc83d8/201902090946_logoj.jpg",Brasileira,0.0,100,2.2,Oxente - Bolo de Rolo,CHEAPEST,4.78125
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812061831_65565aaf-c775-4dcf-87e5-2d5a9b44c403.png",Brasileira,0.0,23,1.57,Churraskilo Bethania,CHEAPEST,4.635220050811768
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801250716_15b4d6f5-ddce-4881-9411-4f24d4eb2244.png",Bebidas,4.9,24,0.99,Chopp do Fritz,EXPENSIVE,4.764709949493408
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201807301147_aa6bb33c-a008-4a1a-8ed5-3867aa224267.png",Brasileira,8.0,100,3.65,Feijoada do Abílio,EXPENSIVE,4.609000205993652
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde//762x500x500x_YAKIS_ENSE01.png",Chinesa,6.0,50,4.28,Yakisoba do Sensei,CHEAP,4.604619979858398
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201711241230_c0b62c65-9bef-4de6-a547-18bfb2f3bb69.png",Brasileira,5.0,50,0.99,Rei do Filét,MOST_EXPENSIVE,4.595510005950928
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/ee01d1c1-babd-4f95-a5da-ba2139aa82d8/201903291302_inbr_a.png",Variada,8.0,70,8.98,Marmi Burguer,CHEAPEST,4.877299785614014
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/ea079570-484f-46ac-989f-eacc5e0b79dd/201808301803_logo.jpg",Lanches,7.0,45,3.4,Império da Brasa Hamburgueria Artesanal,MODERATE,4.872729778289795
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/707e772c-6213-43ea-bd82-f744a7247a21/201810152206_img20.jpg",Chinesa,8.0,60,5.29,Yakissoba da Vila,CHEAPEST,4.845409870147705
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7f09a9f2-84ad-4dd9-b0a6-bbcb6b3c60a3/201904292228_alN1_l.jpg",Pizza,0.0,55,3.86,PIZZAS DO CHEF,CHEAPEST,4.8421101570129395
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811121305_05acb699-acda-49d4-b8d7-bf31fd2cf2b4.jpg",Pizza,4.9,32,1.09,Forneria Romana,MODERATE,4.837399959564209
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b7b72f95-419b-4aa4-928c-464820db2909/201901172105_perfi.png",Brasileira,6.0,40,3.33,Bolinhos Ocaipira,CHEAP,4.82742977142334
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/ea69b27c-27af-45bd-8239-cfee93beca00/201901051857_logoi.jpg",Lanches,6.0,40,3.53,To de Boa Delivery,CHEAP,4.824100017547607
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/fa1dc509-0afa-4c5c-8d9e-2b7ca522b803/201902281430_logot.png",Japonesa,4.9,31,3.79,Sakamototen,CHEAPEST,4.818180084228516
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b969c927-88fe-49fa-bf43-158999ee8be8/201801191850_zb.jpg",Lanches,4.9,45,3.99,Hamburgueria Zombie,CHEAPEST,4.817840099334717
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812010913_d7d27471-83eb-4228-9273-7f1505777d04.jpg",Pizza,4.9,30,1.17,Mia Pizza Delivery,MODERATE,4.814430236816406
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901181350_41db79cd-d089-4c92-9fe1-e4ba788592f9.jpg",Doces & Bolos,4.9,23,4.09,Boleria Tradição Gourmet,CHEAPEST,4.8114800453186035
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802010732_13c2c3e3-0f0b-43ac-8dea-4e68d20f5ae5.png",Saudável,4.9,27,2.45,Restaurante Vegetariano Boa Saúde,CHEAPEST,4.806300163269043
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802081332_49e409e0-5ecb-4f0a-be53-712cff762825.png",Lanches,12.0,120,8.26,Genial Burger Delivery,CHEAP,4.805970191955566
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/1f0530a7-bb85-4d3e-a38c-5f7f9564ba7f/201901242112_01851.jpg",Brasileira,7.0,85,9.25,Mundo da Pizza,EXPENSIVE,4.800000190734863
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901191918_70c7cf4b-b92d-416e-834c-12d33d2d5a45.png",Lanches,4.9,25,2.56,Estacões Delicias,CHEAPEST,4.800000190734863
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9a57ff2b-2410-4a50-97bf-a854a5a23296/201903191753_logo1.jpg",Lanches,6.0,60,4.24,Kidelícia Lanches,CHEAPEST,4.797979831695557
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/cc783346-5f57-4215-9f6d-b08b2c4dbbe2/201807091844_30740.jpg",Lanches,9.0,30,1.37,Burger Box,MODERATE,4.796949863433838
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201702131442_AZEND_TARIA.png",Variada,10.0,80,5.03,Azenda Batataria,EXPENSIVE,4.791039943695068
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812121008_185659ff-0483-4a77-b587-17958b59bc81.png",Brasileira,4.9,22,1.96,Banana Sucos,CHEAPEST,4.7906999588012695
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/8c7b96ce-fa64-4aa0-8d02-47b6d56f4509/201808230044_logot.png",Pizza,4.9,40,1.35,Koala Pizza,MODERATE,4.785920143127441
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/0532537d-d78a-4071-bc5d-0e5fdfb5f404/201806301117_logom.png",Variada,3.5,45,3.58,Restaurante São José,CHEAPEST,4.785709857940674
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902121410_b72ff257-ff69-475d-8f99-a9ba1a39754e.jpg",Pizza,8.0,50,4.39,Pizza do Engenheiro,CHEAPEST,4.785709857940674
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808131105_ccde85cf-773c-4f86-a969-04b0c3c950a7.jpg",Lanches,7.9,50,5.56,Blessed Burger,CHEAP,4.782289981842041
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808212027_035cbbee-13da-4420-bbfc-61c9371b78a1.png",Pizza,4.9,40,3.41,Outlet da Pizza - Preço Único,CHEAP,4.781680107116699
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/44143fe4-f685-4eb7-8894-a39cef87c91c/201808151507_logoi.jpg",Lanches,7.0,45,3.05,Lokal Burger,MODERATE,4.777780055999756
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b77855e2-762d-45f1-8185-ca89272f5374/201902021817_49336.png",Lanches,5.0,60,3.98,Home Burger,CHEAPEST,4.775330066680908
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808241303_dc723755-17a3-45f8-b4fa-39d160251383.jpg",Pizza,5.9,40,3.72,Brooklin Pizzaria,MODERATE,4.77193021774292
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902272119_556f547e-9231-444a-9a32-8d7098fcfb10.jpg",Japonesa,8.0,75,8.32,Sara Sushi,MODERATE,4.765460014343262
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809061249_de63253c-894f-4afa-9396-d38d6e125ffb.png",Pizza,8.9,60,5.23,Santa Fatia Pizzaria,MODERATE,4.759039878845215
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808231336_f6bf28c3-7a05-41af-b70c-023ee0b01066.png",Brasileira,2.0,60,4.05,Alquimia dos Sabores,CHEAPEST,4.309279918670654
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/91ad5f41-3e12-446e-bbde-9d7ecb6522de/201808221148_20882.jpg",Brasileira,2.0,70,3.62,Marmitaria 4 Irmãos,CHEAPEST,4.293650150299072
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803090746_9ac00115-9b2f-4d12-96de-eeaf0cc71105.png",Variada,4.9,27,2.22,Tonga da Mironga,CHEAPEST,3.888890027999878
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901151913_bf9bfd77-1817-4fc7-be2c-dc6365f6598e.png",Açaí,4.9,25,2.25,Açaí Now SJC - Tapiocas e Crepiocas,CHEAPEST,4.291930198669434
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/cae985d1-caab-47b2-8b7d-361cf7575a46/201803052102_image.jpg",Lanches,12.0,50,6.08,The Burger,MODERATE,4.2909698486328125
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/99718aad-8b6a-4931-87d9-eff889cc9caa/201904042230_B4Rl_l.jpg",Brasileira,4.9,60,2.78,O Cortês,CHEAP,4.285709857940674
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803031052_8727c636-0cc3-494c-ace5-f91852786489.png",Lanches,0.0,50,6.92,Snack Hunger,CHEAPEST,4.273809909820557
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902051929_da3336d5-4dc6-4ec5-a633-fc2a53c9f503.png",Salgados,4.9,32,4.02,Candinha Salgados Jd das Indústrias,CHEAPEST,4.272729873657227
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812061658_74238616-9d34-47c8-ad49-6a9134ba5e0b.jpg",Marmita,4.0,50,2.56,Vallecozinha,CHEAPEST,4.267519950866699
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo marca_fadepizza.png",Pizza,2.0,30,1.38,Fã de Pizza,MODERATE,4.265960216522217
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d8455b3b-361c-4d54-8b44-b86c861d9df5/201904252323_Ja6x_p.jpg",Brasileira,6.0,45,6.1,Jô Pizzaria e Esfiharia,CHEAPEST,4.253920078277588
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/65fe272e-390c-42b5-84b2-92b2f5261519/201903141922_image.jpg",Lanches,4.0,40,3.27,Mister Gulas´s,CHEAPEST,4.25
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/0476ffd1-3b16-42dd-8752-cfb2ea2c8f6e/201812181017_what.jpeg",Brasileira,4.0,75,4.97,Cozinha das Comadres,CHEAPEST,4.247419834136963
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_famil_fihas.jpg",Pizza,0.0,55,6.03,Family Pizzas e Esfihas,CHEAPEST,4.244900226593018
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_thebe_urger.jpg",Lanches,3.0,40,3.01,The Best Burger,CHEAP,4.244190216064453
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logodom2_pizza_inius.png",Pizza,0.0,55,5.15,Pizzaria Dominius,CHEAPEST,4.2368998527526855
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902051132_7945424c-654f-4f35-8dbb-852ba0da9b5a.jpg",Brasileira,5.0,60,4.91,Apetilly Restaurante,CHEAPEST,4.236110210418701
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7aa21396-8f65-4f9a-9fee-984d5addcfb8/201905032024_82p7_d.png",Pizza,5.0,70,3.72,Due Fratelli Pizzaria - Delivery,MODERATE,4.235290050506592
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d33c0234-2393-47e2-863b-0e8fb79d4347/201902051206_kdk.jpg",Variada,2.0,30,1.51,Seu Dito Bar e Restaurante,CHEAP,4.231090068817139
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902050846_1210a9d6-11d1-4e69-8b56-bafa617dbcb4.jpg",Pizza,12.0,70,10.3,Fornalha,MODERATE,4.227270126342773
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/1d247f62-0ee4-4418-8fac-b002d6a9043e/201901241106_image.png",Brasileira,4.0,70,3.33,Nova Marmitaria Fortaleza,CHEAPEST,4.199999809265137
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902101721_8dd12215-7c58-4f28-ae05-29e1e2a4c79a.png",Brasileira,4.9,23,0.3,Barbagato Lanchonete e Restaurante,CHEAPEST,4.199999809265137
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901241547_0105b660-5c0c-4696-8041-ed734788e260.png",Lanches,4.9,29,1.19,Gatita's,CHEAPEST,4.1904802322387695
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903201828_f80d5855-f8b7-43d2-acc9-f903dd415bec.jpg",Brasileira,4.9,40,1.55,La Casa Nostra,CHEAPEST,4.1875
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901181753_59e4efd2-ce1f-48e7-b937-f0e4f6a8fab5.jpg",Brasileira,10.0,55,5.53,Franguinho,MODERATE,4.186049938201904
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803121318_3f56f244-6ccf-4a5c-9f26-235ad8492115.bmp",Lanches,6.0,70,4.54,Toscanos Hamburgueria Gourmet,CHEAPEST,4.185840129852295
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902071605_6c5eeb05-2c94-4ed6-8dba-72e4ef9a6a44.jpg",Brasileira,4.0,60,4.88,Jeitinho Mineiro,CHEAPEST,4.181819915771484
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803151431_dfc8dab3-8a04-46e9-94a3-473e8690cc59.jpg",Carnes,4.9,31,1.55,Filémiau- São Dimas,MODERATE,4.179490089416504
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7280c0d9-0a2e-42cc-8d76-177e18eeeb57/201808281227_rei.jpg",Lanches,0.0,60,0.99,Rei do Burger,CHEAP,4.173910140991211
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a0ddd86f-aad7-46b7-8892-595f6d3f4c8e/201901311900_theho.jpg",Lanches,6.0,60,3.73,The House Burguer,CHEAPEST,4.1714301109313965
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/65d04e7c-f067-4e06-8fb1-fd44247e34fc/201902080939_image.jpg",Brasileira,3.0,60,2.62,Sabor de Casa,CHEAPEST,4.168540000915527
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903061929_dc1c784d-67f6-4e83-976f-4321526ceb08.png",Lanches,0.0,50,2.32,Palito Lanchonete Centro,CHEAPEST,4.160260200500488
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/8ecdd8d3-57c8-4fc2-8446-f20a59485e4a/201808161254_97122.png",Salgados,3.0,55,4.27,Mini Delícia Express,CHEAPEST,4.159999847412109
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201710301125_0b744bd8-6028-4dce-bf1f-d3cd5f18621e.jpg",Salgados,6.0,60,3.52,Pé de Salgados,CHEAP,4.377950191497803
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811131621_393b54b5-c3a2-4ed9-acb0-be47dae05424.png",Italiana,4.9,22,1.02,San Genaro Restaurante e Rotisserie,CHEAPEST,4.371429920196533
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809042154_6fc7d80d-2aaa-437e-9dc0-24b16da54b7e.png",Lanches,5.0,50,4.73,K&k Burguer Delivery,CHEAPEST,4.362100124359131
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_yakifish.jpg",Saudável,5.0,60,3.04,Yaki Fish,CHEAP,4.333330154418945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201804191528_e4e8a1b6-12a4-493e-be64-b04c1fa9d692.jpg",Doces & Bolos,4.9,19,1.09,Torteria Haguanaboka,CHEAP,4.333330154418945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201806131928_b12d9c4e-7732-4888-93a4-278db07b7c86.png",Variada,9.0,90,4.82,Marmitaria do Tio,CHEAPEST,4.33027982711792
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803201036_f6883770-00cd-4616-a562-73076479b37b.png",Lanches,4.9,23,0.37,Container Burger,EXPENSIVE,4.329269886016846
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903201935_d92eca04-dd70-4726-bf48-b104d840ac9e.png",Brasileira,4.9,54,3.53,Restaurante Janela Aberta,CHEAP,4.326920032501221
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201708011028_85dfe8a0-c1a5-4d5d-8dbe-028c8234bb2e.png",Pizza,8.0,65,3.52,Pizzaria Augustos,MOST_EXPENSIVE,4.304719924926758
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901231925_865dcdc2-f6c3-48ed-b287-c32b21fc1e8b.jpg",Brasileira,4.9,25,4.26,Restaurante Sabores do Jardim,CHEAP,4.291140079498291
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201708081608_74dde208-f99c-4e06-bb90-2bbbfaffeb7e.jpg",Açaí,7.0,60,5.55,Rei do Açai,CHEAPEST,4.283010005950928
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812080906_63b435ea-0a50-4d94-b4e1-5e6c2b92511c.png",Japonesa,4.9,22,1.04,Asami Sushi Sjc,MODERATE,4.275859832763672
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901111849_d1d0e3a2-4ef8-428b-9b02-562765fd0d24.png",Lanches,8.0,65,3.77,Burguin Steakhouse,MODERATE,4.236219882965088
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/4de26d9e-a13d-4118-80f3-813b3f2dc00a/201809202010_logo2.jpg",Pizza,5.99,50,7.9,Zacarone Pizzas e Batatas,CHEAP,4.226190090179443
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/489074f3-1550-4831-9407-bd18fb89c272/201904251332_Pgr6_3.jpg",Cafeteria,4.9,26,1.17,Bona Petit,CHEAPEST,4.199999809265137
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/2248a4c7-3a99-4392-921b-65a70bedd158/201905031501_1ekR_l.jpg",Brasileira,4.9,29,1.5,Giraffas-shopping Colinas,CHEAP,4.179490089416504
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9f6b42ee-dc17-4e84-8874-669ed9c4bb46/201904020110_qpzw_l.jpg",Pizza,0.0,60,6.29,Pizzaria Di Napolli,CHEAP,4.143290042877197
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902072004_80e2b801-c141-481b-b814-e4beab537d86.jpg",Padaria,4.9,29,3.55,Padaria Bello Pane,CHEAPEST,4.142859935760498
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901111603_df1729cc-d00b-404b-a683-d25acb358238.png",Brasileira,0.0,40,3.04,Casarão Mineiro,CHEAPEST,4.092339992523193
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901301028_ba25bd14-7184-4499-b2f2-2cc1087c34b7.png",Brasileira,4.9,51,4.3,Boteco Traviolli,EXPENSIVE,4.080359935760498
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902191951_3f2fd472-ca26-4b6f-bed1-f50e07120ce1.jpg",Lanches,4.9,60,4.21,Rei do Pastel Good Vibes,CHEAP,4.0625
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/2492ab1d-38bf-4072-90ba-069dca84ee04/201810031519_scree.png",Marmita,8.0,50,3.33,Marmitaria e Açaí Sabinos,CHEAPEST,4.060870170593262
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/610fc19c-7085-44a5-aeb2-56c2ed361b38/201902271508_logop.jpg",Lanches,4.9,60,2.69,Los Angeles Prime,CHEAPEST,4.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812211108_1c8ec7d6-c5d8-42d4-b056-d544537685c9.png",Brasileira,4.9,26,1.5,Parmeggio - Colinas Shopping,MODERATE,3.9866700172424316
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/cd734b3c-c5cb-4c7d-8b77-89efa1afaca9/201904170133_il24_s.jpg",Brasileira,3.0,65,6.77,Marmitaria Cozinha de Casa,CHEAPEST,3.8894200325012207
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_casad_rant01.jpg",Brasileira,3.0,60,1.6,Casa do Filé Restaurante,CHEAP,3.794869899749756
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901281749_7aa53217-72e9-42d2-be9a-347ae1a47f24.jpg",Lanches,4.9,23,2.38,Tio Coxinha Sjc,CHEAPEST,4.6162800788879395
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812061807_7316c6ca-0d78-472f-bdd3-1c75fa5752b3.png",Pizza,8.0,60,6.29,Geek Pizzaria & Cia,CHEAP,4.615379810333252
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802261643_db178316-70c9-44c8-9f89-2077ef682a9e.png",Variada,4.9,23,2.25,Roma Restaurante,CHEAPEST,4.611110210418701
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901220955_4dad1f99-0b7f-46f3-a2f9-5edb28502e51.jpg",Brasileira,4.9,18,0.51,Frango & Rango II,CHEAPEST,4.60975980758667
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/f7d81006-8518-4d23-8e9b-1b4640abbcad/201902071618_what.jpeg",Pizza,4.5,70,5.29,Rocket City Pizza Bar,CHEAPEST,4.606060028076172
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d5c35353-1434-41ce-a7b0-41e57609db1d/201808151828_img20.jpg",Lanches,6.0,55,7.85,Hamburgueria Artesanal dos Gordinhos,CHEAPEST,4.594379901885986
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201703091033_ROSASDESARON.png",Pizza,3.0,70,5.48,Pizzaria Rosas de Saron,MODERATE,4.593220233917236
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902131409_dbc2ae76-d861-44c0-a971-d3758e7f96a5.jpg",Brasileira,0.0,25,4.37,Cozinha do Careca,CHEAPEST,4.5931901931762695
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802070722_1426b692-bb14-4fff-a618-052fcbe129f3.jpg",Pizza,4.9,28,1.11,Armazém da Pizza,MOST_EXPENSIVE,4.58558988571167
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812031955_0fdf46c4-5b65-437a-ae4f-f89ca6a6a959.png",Brasileira,4.9,26,1.18,Linguiçaria Joseense,CHEAP,4.583330154418945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809281712_6db9df75-afd5-4029-8b90-5b833e841d29.png",Lanches,5.0,65,4.35,Fella Burger,CHEAPEST,4.582009792327881
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809141322_4680a384-5299-4ab2-82b7-70e9a321bfeb.jpg",Variada,7.0,60,3.37,Bene Pastelzinho,CHEAP,4.578949928283691
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d8331796-c9a3-463e-a32a-b8a7473d11d7/201902071810_what.jpeg",Bebidas,8.0,55,7.21,Bardega São José,CHEAP,4.57627010345459
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/33_pizza_sboas.png",Pizza,0.0,30,5.45,Pizzaria Villas Boas,CHEAPEST,4.575349807739258
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d3509938-0afc-45ca-a9cc-9e4ed7627cf2/201901231643_17342.png",Lanches,7.0,70,7.42,Sandubão Sanduíches,CHEAPEST,4.575160026550293
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901110903_140476ab-97b5-4252-a2b6-d6df5b3c8b7d.png",Doces & Bolos,4.9,33,3.01,Big Waffles Delivery,CHEAPEST,4.571430206298828
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5cfe0c30-a9c0-4eab-9a36-4721b1e7cd27/201904151107_DQzZ_.jpeg",Brasileira,4.0,70,4.86,Nf Refeições,CHEAPEST,4.571430206298828
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811141900_163ee7d6-8abd-4eda-87f3-dae514308b94.png",Lanches,0.0,23,2.73,Açaí Mix Jardim Satelite,CHEAPEST,4.57105016708374
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811240834_d436f396-664a-4c3a-b2aa-b3c18ad6960d.jpg",Lanches,8.5,70,6.99,Gy Lanches,CHEAPEST,4.565219879150391
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5ebf20e9-e992-40a1-9255-aef7b29b0500/201903221800_logo.jpg",Saudável,4.9,37,0.74,Nibs Juice Bar,CHEAPEST,4.5640997886657715
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/e3caa620-c084-4bb4-ba43-4a04ffd3ac31/201811292154_logo.jpeg",Lanches,8.9,80,5.04,Musta Burguer,CHEAPEST,4.56318998336792
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811191823_977b8860-61b9-4c4d-b6a3-24cf7f1197f3.jpg",Pizza,7.0,50,6.07,Pizza Ji,CHEAP,4.561399936676025
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901191751_5d79b4ce-5ae5-4aa6-8b88-e7a282e1cd48.jpg",Pizza,3.0,60,1.22,Mia Pizza Delivery,MODERATE,4.559999942779541
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904052203_fe5efc2e-3424-41ab-99a9-1606669d2dfa.png",Lanches,4.9,50,3.62,Lanches da Hora.com,CHEAPEST,4.558819770812988
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5d85349f-6151-4518-8d38-4e0aa609fbec/201812051959_face.jpg",Lanches,4.0,49,3.84,Show Espetinhos,CHEAPEST,4.5543999671936035
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201712051234_75b9145b-ea98-4a5c-a37b-c465bf61b1a5.png",Japonesa,6.0,50,4.27,Danisan Sushi Delivery,MODERATE,4.554009914398193
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/c15cc676-d284-42ba-8124-01c1d3207bb2/201903271330_T0fN_l.png",Saudável,4.9,26,1.56,Ecovitta - Restaurante Saudável,CHEAPEST,4.552239894866943
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802170747_28a27188-b8f2-4d78-ae47-8d28e51c682f.jpg",Pizza,5.0,45,1.52,Pizzaria Artesanal,EXPENSIVE,4.550000190734863
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902030845_a638006b-ee5d-4f0a-8b73-1e007532ed3b.jpg",Lanches,7.0,60,4.39,Urba Burguer,CHEAPEST,4.549019813537598
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/e23d6822-20c0-438f-8e6a-63f1ee2d8bb2/201812021448_0e2d8.jpg",Pizza,0.0,80,6.29,Lapaz Pizzas e Lanches,CHEAPEST,4.545450210571289
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/Screenshot_1_CANTI_ANENA.png",Italiana,8.0,60,1.02,Cantina da Nena,EXPENSIVE,4.592179775238037
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902080931_ab87e3f7-893a-45a9-aa1a-cfdacbc7cc43.jpg",Doces & Bolos,7.0,70,6.24,Doçuras da Lu,CHEAPEST,4.728569984436035
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde//930x500x500x_FACEBURGER.png",Lanches,3.5,40,4.95,#Faceburger,CHEAPEST,4.576499938964844
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802160726_905092a0-cfdd-4e5a-84fc-a73b749cfadb.png",Italiana,4.9,27,2.72,Massa Corrida,CHEAPEST,4.570089817047119
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903291710_33884843-dd6f-4db6-bc6d-8553a8055f90.png",Japonesa,0.0,40,1.0,Yotsuia Sushi,MODERATE,4.681819915771484
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/c5f2ddc8-db6c-46a6-940d-865df3a6478f/201811281402_what.jpeg",Brasileira,7.9,60,4.09,Kitorresmo,MODERATE,4.678569793701172
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901291249_af8c8e7a-7d2d-4af4-bc6b-8fdc87ec204e.jpg",Saudável,4.9,36,2.63,Dom Vegano - Vegan Food,CHEAP,4.675159931182861
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/674df468-6c4d-4f5a-af27-2991d205bbc6/201902282014_logo_.png",Sorvetes,4.9,26,1.3,Mawê Açaiteria,CHEAPEST,4.666669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812191902_fc452614-384b-4949-b569-7454192a337f.png",Japonesa,4.9,24,0.89,Kasato Sushi,EXPENSIVE,4.659090042114258
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7fc8fca5-bbb6-4c19-9b9e-baa3ef6169e4/201804131528_logo.jpg",Variada,0.0,16,1.09,Churraskilo,CHEAPEST,4.511040210723877
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902211127_92f0a369-ce47-4c25-aeda-5aed7ad3237d.jpg",Brasileira,0.0,50,3.53,Vaca Preta Restaurante,CHEAP,4.622879981994629
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/f6fbd00b-1c4c-4a19-a02c-7759fa5cc103_OCANECOBAR.png",Brasileira,0.0,50,3.17,O Caneco Bar,MODERATE,4.4581298828125
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901311719_4b99341c-ed46-4522-806f-33011defbcb3.png",Carnes,4.9,27,2.98,Tutti Famiglia,CHEAPEST,4.588240146636963
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811271207_a53b4f0d-06a3-4af8-bca0-4dadc8d21749.png",Brasileira,4.9,24,1.11,Cabana Espetinhos,CHEAP,4.421289920806885
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808101540_7a7c16b8-d400-48ba-a1cd-0d1b0e538002.jpg",Brasileira,2.0,60,1.56,Baunilha Sorvetes,CHEAPEST,4.545450210571289
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901301009_bb4ed8a6-7f2a-4b25-88f5-9f013ff7c8cf.jpg",Lanches,4.9,26,3.04,Cantinho do Loro,CHEAPEST,4.545450210571289
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201810072116_d063b672-a68e-46d0-bcd7-364457ecfb11.jpg",Brasileira,4.9,33,1.11,Bendito Bistrô,MODERATE,4.541669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/088f0cc9-cb20-4884-a892-7933f88281ad/201804052123_logoc.jpg",Italiana,6.0,70,5.22,Cantina da Querida Gourmet,CHEAP,4.529409885406494
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo Koni Sto_KONICOLINAS.png",Japonesa,0.0,39,1.07,Koni - Colinas,MODERATE,4.392029762268066
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809231318_f7d9d428-19fb-472f-92ff-efc96345ad06.png",Brasileira,4.9,21,1.47,La Panqueca,CHEAP,4.525420188903809
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/13173941_9671_SUKIY_AMPOS.png",Japonesa,4.9,17,1.02,Sukiya São José dos Campos,CHEAP,4.505229949951172
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803071148_b08fad7f-0928-49e6-991b-4dd054e6a33b.png",Variada,4.9,22,1.07,Café Donuts,CHEAPEST,4.5
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811141938_940784b4-893c-4cda-8920-5b53f5d7129e.png",Doces & Bolos,4.9,25,2.72,Churros do Vale,CHEAPEST,4.495800018310547
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/424659_157473_TRATT_ELIER.jpg",Italiana,0.0,49,1.56,Tratto Atelier,CHEAPEST,4.359620094299316
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201708181443_e45ac46f-cec1-44c3-b51a-bff11bbe163d.jpg",Lanches,3.0,55,1.36,Natureba Açaí Sucos e Lanches,CHEAP,4.486609935760498
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901161618_53716ee1-5d65-40c2-9cb9-1f7cfc710ef2.png",Brasileira,0.0,25,1.08,Villa Ema Bar & Chopperia,EXPENSIVE,4.486489772796631
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/c9acf014-b995-4d2f-89fe-9b40b320d172/201904111607_IUY0_i.jpg",Marmita,5.0,50,4.67,Marmitaria Manu Manu,CHEAPEST,4.482140064239502
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803191330_a0d528fc-0028-4151-b025-cacb48d113c2.png",Bebidas,9.0,40,4.98,Madrugadão,MODERATE,4.4820098876953125
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904041734_b4b98baf-b211-4c70-8b79-4958f83d6297.png",Brasileira,6.0,60,4.67,Vó Júlia,CHEAPEST,4.477610111236572
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902221127_93317221-52b2-4c88-ab22-bc062d4ef110.jpg",Brasileira,8.0,55,4.28,Porquetta,CHEAP,4.470590114593506
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812121219_041f49b0-080b-4782-980d-32d9e4cb4c19.png",Frutos Do Mar,4.9,42,2.94,O Rei do Peixe,MOST_EXPENSIVE,4.450980186462402
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/c65124f6-0d15-48f3-ad5e-e904fbc5b3de/201902171943_048.jpg",Lanches,0.0,60,6.95,Rodholfus Dog's,CHEAPEST,4.431369781494141
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903211348_8924212d-49c2-4c78-b793-50737230720d.png",Brasileira,4.9,51,3.37,Restaurante Bahia,CHEAPEST,4.4242401123046875
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a981b91c-af2c-48c4-9335-3ff50df191db/201904102209_lMUd_l.jpg",Árabe,4.9,60,3.84,Kebab Brasil,CHEAPEST,4.421050071716309
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902172202_bdfbb8ef-48e6-4d03-bff9-16d77351f326.png",Lanches,6.0,40,6.65,I Love Burguer,CHEAPEST,4.418479919433594
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b1c878f9-55ef-4cf7-a112-d292b1c272a1/201904232158_Pokw_l.jpg",Pizza,0.0,60,3.97,Gigantes da Pizza,CHEAP,4.75570011138916
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902011729_3720e442-61ec-458b-af44-1d329ac20039.jpg",Pizza,2.9,45,1.27,Rb Pizzaria,CHEAP,4.755099773406982
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/92cb6f54-6771-4980-8d11-13903b62b05d/201807101513_36879.jpg",Variada,2.5,60,2.91,Frida Comedoria,CHEAP,4.752379894256592
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808271029_c576b8e8-ea0b-4f67-b420-45880b3e7e31.png",Pizza,3.0,40,3.73,Pizzaria Santana,CHEAP,4.75
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812051928_8375d3dd-7af7-45c4-a310-315ebcf465db.png",Saudável,4.9,20,1.37,We Make,CHEAPEST,4.75
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902221308_6dea8f2e-1411-44ad-8ba6-edb369b41436.jpg",Lanches,4.9,60,2.73,Rene Lanches,CHEAP,4.75
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/2717d7db-32df-4421-980d-5f6e1dd1e6b9/201807171712_23843.jpg",Pastel,6.0,50,3.24,Dani Dri Pastelzinho,CHEAP,4.7489399909973145
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808101744_9087f8e0-6f54-42f8-af7f-409f6ba6669c.png",Pizza,0.0,60,3.95,Pizza Club Forno À Lenha,CHEAP,4.747179985046387
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7c6c9992-ea4a-4f41-b7b8-08598fb42269/201810081901_logoa.jpg",Cozinha Rápida,9.0,50,3.54,Empanadas Raices Tucumanas,MODERATE,4.746029853820801
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901211154_2c0eb987-cc45-4c7a-9579-e8f64d9e5bd3.png",Lanches,9.0,50,5.55,Bocadillo Lanches e Açai,CHEAPEST,4.73769998550415
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9ae0414a-5881-4525-ba09-35fdc904373e/201904092330_gxvq_i.jpg",Marmita,3.0,50,3.87,Marmitaria da Lu,CHEAPEST,4.733329772949219
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802210907_9ef3e5a7-d0f3-4751-aca6-c2decc388140.png",Lanches,4.0,70,3.16,Mell Sabor & Arte,CHEAP,4.731540203094482
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901261902_011e97dc-9cb6-4eac-b3d4-8b64ef47c103.jpg",Saudável,4.9,24,1.34,Especiarias Comida de Verdade,CHEAPEST,4.730160236358643
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812081010_4e37dc0a-9cb3-4fa9-a448-eee89c909a03.png",Francesa,4.9,26,1.3,Dona Fê Café Bistrô,CHEAPEST,4.727270126342773
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901031408_0e114e22-f71e-4f81-acde-575ddfe68d4c.png",Brasileira,4.9,26,3.02,Vale Refeições,CHEAPEST,4.7270097732543945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/e9fbe92a-046a-443d-86ca-cadacd58a913_JCPIZ_LENHA.jfif",Pizza,0.0,35,3.95,J&c Pizzaria Forno À Lenha,CHEAP,4.725490093231201
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201810171039_520cdd12-afaa-4dd0-b49e-d0eb65582240.jpg",Pizza,8.0,70,9.05,Taberna Mágica,CHEAPEST,4.724639892578125
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801151456_d4dc4ed1-0ca6-4eb7-b2c6-f57e1122789d.png",Pizza,4.0,60,1.07,Pizzaria Irmãos Ramos - Centro,MODERATE,4.7227702140808105
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/8eb0b442-c6b9-4700-bc7f-c6f06ba63836/201802031945_logom.jpg",Variada,4.0,45,3.99,La Boca Empanadas,MODERATE,4.71845006942749
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo marca_pizza_maral.png",Pizza,6.0,60,6.32,Pizzaria Amaral,CHEAP,4.7168498039245605
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/95ee03bf-f868-478a-bb4b-e529116c690e/201903221634_54518.jpg",Saudável,4.9,37,4.42,Vitória Vegetariano & Fitness,CHEAPEST,4.714290142059326
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812281045_1194ac26-3d42-418e-8283-aca082c1f086.jpg",Pizza,5.0,50,4.91,Planeta Pizza,CHEAPEST,4.714290142059326
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902041748_aaced2a9-b727-4ab9-9d03-164f6db52a90.png",Salgados,4.9,32,2.87,Crislaine Salgados,CHEAPEST,4.714290142059326
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809271316_0a8ad4c8-8372-425c-aeec-4b12ad5b2a87.png",Lanches,5.0,60,3.66,Consulado do Hamburguer,MODERATE,4.713109970092773
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201710011101_29c17dfb-e53b-4713-bf23-7e4719969078.png",Lanches,5.0,60,3.33,Estação do Suco Sjc,CHEAP,4.711810111999512
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801261140_9e19e637-322d-487a-b220-5dbce84bcaa6.jpg",Japonesa,4.9,24,1.28,Yakidon Express,CHEAP,4.709400177001953
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201711031001_236ccd56-a09d-459a-a19e-1e107f76134d.jpg",Pizza,6.0,50,4.27,Vila da Pizza,EXPENSIVE,4.708330154418945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_centr_pizz01.jpg",Pizza,0.0,60,3.09,Central da Pizza - São José dos Campos,MODERATE,4.707009792327881
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808241210_c4fcafe3-4e4e-4fc1-9e26-ba40becdf4a2.jpg",Pizza,5.0,50,4.3,Good Pizza,CHEAP,4.701149940490723
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5a8406cf-fa4a-4c66-900b-3aa9008dc186/201902012136_logo.jpg",Pizza,0.0,35,3.97,Pizzaria da Vinci,CHEAP,4.700479984283447
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201708241642_7ab71b02-91da-445c-86c0-3b56d3046a13.png",Japonesa,0.0,50,2.95,Tokyo Delivery - Japanese Food,CHEAP,4.699289798736572
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902011529_999f6eb2-ee4f-4701-a571-81dfcc7f1964.png",Pizza,0.0,35,4.03,Master Pizza,CHEAP,4.695980072021484
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901261323_9dfe38eb-3cc0-4e28-8c9e-4a552d51be89.png",Brasileira,4.9,25,3.53,Restaurante e Pizzaria Sabor Brasil,CHEAPEST,4.694119930267334
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201708211835_6b52e6a1-cb3b-45ae-9ca6-3614d3ba1ea3.png",Pizza,6.0,70,5.54,Snacker Pazza,CHEAPEST,4.690849781036377
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201806071145_d4d2d7a6-05fc-49b6-91da-d016da71098c.png",Pizza,3.0,50,3.85,Paraíso da Pizza,CHEAP,4.688409805297852
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812110954_79094e60-5219-40e3-b5fc-bce7ac99f73d.jpg",Japonesa,4.9,23,1.44,Restaurante Irie,EXPENSIVE,4.687069892883301
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812091007_9dd25abd-4413-4175-a12d-264238c8152c.jpg",Variada,0.0,22,3.35,Demoiselle Pizzaria e Choperia,CHEAPEST,4.6870198249816895
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809141222_d96f35be-55d0-4618-bdc8-0da2322d36ff.jpg",Brasileira,0.0,45,3.72,Kuka Grill Restaurante e Lanchonete,CHEAPEST,3.7388100624084473
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902161045_6e8081c5-bc84-42c9-a8a1-be7edfecfb5e.jpg",Brasileira,3.0,45,2.56,Churrascaria e Pizzaria São Judas Tadeu,CHEAPEST,3.7006800174713135
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b81c30c4-dd82-4462-a162-4a26421ed9a0/201902070841_image.jpg",Marmita,6.0,60,5.49,A Caseira Marmitaria,CHEAPEST,3.666670083999634
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902221025_d9641225-6fb1-45c2-83e6-d121a8f3e393.jpg",Doces & Bolos,4.9,60,2.63,Delícias da Doceira,CHEAPEST,3.5666699409484863
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7edfa270-a947-4a3a-9ccb-ddf636810096_BACCO_GRILL.jpg",Italiana,4.9,24,0.98,Bacco Macaroni & Grill,MODERATE,3.5
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808271805_943b410a-ab89-4436-8735-532b91ac19b5.png",Brasileira,4.9,28,2.45,Yex! Steak House,CHEAP,3.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a4d259a7-9a48-484f-9d8a-7503d246601b_LUGSJ_LINA01.jpg",Cozinha Rápida,4.9,25,1.07,Lug's Jardim Colinas,MODERATE,3.960779905319214
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903132142_865a29cb-1f3e-451e-abfc-f0d25f262819.png",Doces & Bolos,4.9,40,1.03,Bolo da Madre - São José dos Campos,CHEAPEST,4.666669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bc16371b-8978-4a5d-9d9f-1e0c7cd34783/201811071953_30656.jpg",Pizza,7.0,25,2.7,Pizza Crek - Sjc,MODERATE,4.5470099449157715
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902261659_69fa04fe-2bbe-4d32-a1c2-d5b331c6e9d5.png",Brasileira,6.0,30,3.33,Brasileirinho Delivery - Sjc,CHEAPEST,4.471700191497803
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801161929_360d4c54-7e66-42f1-ace9-8e115a01dbbf.png",Pizza,10.0,60,1.09,Pizza Hut - 9 de Julho,EXPENSIVE,4.315499782562256
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201803201504_0e025986-b527-4b6b-9dad-27062e36b408.png",Brasileira,4.9,26,1.59,Restaurante Água Doce  Cachaçaria,EXPENSIVE,4.2752299308776855
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201712221030_cdb5fe6c-00ff-4fd7-990f-bf06015da531.png",Pizza,7.9,45,0.8,Domino's Pizza - São José dos Campos,MODERATE,4.068630218505859
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo_imper_zari02.jpg",Pizza,4.9,50,2.85,Imperia - Restaurante e Pizzaria,MODERATE,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/534b2300-6bc1-4bdc-ad02-6fa75652aff4/201801181235_logo_.png",Doces & Bolos,5.0,60,3.17,Chocolateiros,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801291604_4ddec517-182f-40a1-818a-34c3a49a9863.jpg",Sorvetes,4.9,29,2.7,Mio Sogno Di Gelato,EXPENSIVE,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802231537_bea5d5cf-fa89-4d4c-83a4-e81d87a9eecf.png",Lanches,5.0,90,1.43,Lanchonete 14 Bis,CHEAPEST,4.5
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/8e39b186-65da-4749-b5fe-55f19266996c/201905011555_Ddyz_5.jpg",Bebidas,15.0,60,11.17,Adega Mwl,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7b97ad5e-7d53-4397-9189-903c4a2f70dd/201810251404_coffe.png",Cafeteria,4.9,34,3.6,Coffee Break - Premium Quality,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812130946_73fe2829-0f3c-49d4-99ee-0aa62af8d057.png",Brasileira,4.9,35,4.27,Marmitaria do Gaucho,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201812210948_16a3da81-18dd-4d35-95d0-aae4b86e60f0.png",Sorvetes,0.0,90,7.62,Ada Sorvetes,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901080952_882bf9a4-b9f5-40d5-bf53-67829dbf3be4.png",Açaí,4.9,60,3.17,Restaurante e Lanchonete Fonseca's,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/60203c6e-bba8-46dd-aa48-d2115509f982/201901091118_image.jpg",Brasileira,6.0,50,3.51,Mr. Marmita,CHEAPEST,3.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901260841_22806dd6-4467-4842-b50a-755ed963b0ab.jpg",Lanches,4.9,60,2.63,Pastelus,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901181232_e9de645b-8f6e-483d-84c0-feb978dd4614.jpg",Chinesa,4.9,26,1.43,Restaurante Manná,CHEAPEST,4.333330154418945
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901221131_820e7b6d-1f77-4821-8909-b5e6c76f18ff.jpg",Lanches,4.9,40,1.54,St Art,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901271630_d79f4266-c92c-42fc-badc-702791167607.png",Pizza,3.0,30,1.38,Oliver Pizzaria,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901261950_1ea14b68-81cb-45c5-93d9-ade9251a3491.jpg",Brasileira,4.9,60,4.06,Super Saudável Restaurante,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/000b7222-45c5-4c6f-b321-2e6952772fd0/201903012106_logoc.png",Cafeteria,3.0,40,2.3,Cafe Mineiro,CHEAPEST,4.545450210571289
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logo-ki-lanch_kilanchaocom.png",Lanches,5.0,50,2.34,Ki Lanchão.com,CHEAPEST,4.542500019073486
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/a934b396-8e74-43c6-9c41-4d27b3f8e965/201903262231_yaRE_l.jpg",Sorvetes,4.9,60,3.6,Eisballett Sorvetes Classicos,CHEAP,4.538459777832031
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902091755_d217ff02-86bd-448d-922d-586ca482d2e3.png",Lanches,4.9,30,3.06,El Puerco,CHEAP,4.5370402336120605
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901051349_2bc3740a-04c7-495c-b60f-19a7dcf0909f.jpg",Lanches,3.9,35,2.79,Burgones - São José dos Campos,CHEAP,4.530610084533691
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201810291547_2334d89a-6bca-4e35-8822-455e76c2c59b.png",Pizza,4.9,26,1.09,Donna Carmela - Pizzas Artesanais,MODERATE,4.527780055999756
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201807011531_a1c154b0-8cee-46bd-8cca-be833decd02e.png",Lanches,0.0,60,3.45,Friends Hamburgueria,CHEAPEST,4.525390148162842
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/f228b18d-6f89-4a77-931a-5e175654d0a3/201904262142_Ly2X_3.png",Lanches,4.9,27,0.35,Brooks Hamburgueria Sjc,EXPENSIVE,4.523809909820557
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201807271129_1ac74dce-69d6-4871-a81d-30d7728769d3.png",Carnes,5.0,45,2.85,Calçada Brasileira,MOST_EXPENSIVE,4.521739959716797
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808271123_da319ee9-2678-4bd8-b244-7c8839189e1c.jpg",Lanches,7.95,39,4.9,Ritchellu´s Lanches & Cia,CHEAP,4.520380020141602
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903281323_0fc67f2e-4979-4e06-b185-229b52e3071d.jpg",Japonesa,8.0,80,5.34,Gueixa Sushi,CHEAP,4.519229888916016
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201809251550_ad6434be-d025-4ec1-a9f3-9d05ade1743d.png",Brasileira,4.9,23,1.11,Caseirissimo,CHEAPEST,4.517240047454834
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902131643_3e31f54e-c042-49fb-8807-bfa5c92215d0.png",Brasileira,4.9,40,2.43,Mattos Salgados,CHEAPEST,4.516129970550537
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201811091947_41fed2d2-df54-4e9b-99df-7394a87ec3f8.png",Salgados,4.9,23,2.52,Padaria Nova Alvorada,CHEAPEST,4.51485013961792
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201709151538_4f9a95c6-0674-4d1d-bec8-d775cd6c394d.png",Pizza,0.0,50,3.23,Os Napolitanos,MODERATE,4.506490230560303
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901111329_f5fb8011-09aa-4593-9bee-cef0215307cd.png",Brasileira,4.5,30,2.97,Ponto 23,CHEAPEST,4.505380153656006
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201802030739_353c37a0-c41a-4f6b-adf7-59a8f9b1fd4a.jpg",Cozinha Rápida,10.0,40,9.03,Papa-tudo,CHEAPEST,4.503940105438232
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5e0ffe4e-05dc-47e2-afcc-43cc62a3432d/201904121242_s4O7_w.png",Brasileira,0.0,25,4.03,Number One Chicken,MODERATE,4.502590179443359
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/itali_genils-_ITALI_IZZAS.png",Pizza,0.0,25,1.37,Itali Genils Pizzas,MODERATE,4.501550197601318
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904041705_6e50effd-bdc0-40ed-83c0-1beed2675793.jpg",Pizza,9.0,80,6.24,Pizzaria Pulcinella,CHEAPEST,4.5
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902141055_0f57580c-ff19-4b2e-8523-4e197bf9b717.png",Árabe,5.0,50,3.51,Cittá Della Massa,CHEAP,4.5
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201708051137_27ad9662-10f9-42fe-9118-7b8350096686.png",Pizza,0.0,45,3.23,Pizza Go,CHEAP,4.4949798583984375
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/5ffd25ad-125c-4724-9cef-3c1ca785777e/201904291120_mal9_p.jpg",Lanches,3.0,45,4.39,M.s.j Lanches,CHEAPEST,4.490910053253174
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/logomarca 1_ligue_zaype.jpg",Pizza,0.0,35,6.29,Ligue Pizza Ypê,MODERATE,4.4880499839782715
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9fda1e6d-ab09-4c92-a792-acc6328db8f5/201901281624_logo.jpeg",Pizza,7.9,80,5.1,Musta Burguer - Colinas,CHEAPEST,4.487649917602539
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901111317_81fc02e5-5375-4bef-beca-2920d2a58689.jpg",Brasileira,2.9,30,1.39,Marmitaria Raiz,CHEAPEST,4.485439777374268
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/8273e864-dff4-44b3-8073-cc9785798515/201901221629_image.jpg",Lanches,4.0,65,7.94,Saddam Burguer,CHEAPEST,4.483870029449463
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902190944_8576f7ba-9185-41c9-8456-c3c793f72735.png",Brasileira,4.9,24,2.98,Restaurante Ki Delícia,CHEAPEST,4.483329772949219
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/43314253-d0ec-4aae-a1a4-0a33e6463964/201803191041_carim.jpg",Japonesa,6.0,70,4.83,Sushinakaza Delivery,MODERATE,4.482460021972656
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902221451_5a987ce7-a5a4-433a-8024-a8956699a683.jpg",Pizza,4.9,40,1.01,Charme Restaurante e Pizzaria,EXPENSIVE,4.481480121612549
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/12990e43-30fb-4524-9919-219f8081eb75/201904122109_dCBo_.jpeg",Pizza,6.0,80,5.64,Jupiter Pizza,CHEAPEST,4.481480121612549
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901291514_051dc56f-66ff-49b8-ab59-18194080f710.png",Açaí,4.9,26,1.48,Vitttoria Açai e Lanches,CHEAPEST,4.480000019073486
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201708242041_3659ca36-6d69-4484-8b9c-c78ac79bb2bc.png",Lanches,0.0,50,6.92,Hora do Lanche,CHEAPEST,4.476739883422852
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/122a6549-4f52-415b-8c28-45cf6a208194/201901091111_img20.jpg",Lanches,5.0,75,7.04,Dilson Pan Lanches,CHEAPEST,4.474999904632568
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201808301040_de8df0ac-279c-430d-a256-ae468b30c0ed.png",Brasileira,6.0,75,5.05,Recanto Sabor Mania,CHEAPEST,4.473780155181885
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/c9394aef-6736-4d6a-a72a-c9bef3683d5e/201903142029_img_4.png",Brasileira,4.9,22,2.9,Ô Mineiro - Comida Brasileira & Doces,CHEAPEST,4.3821702003479
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201710061853_fc2cc430-a71c-4ebd-9aed-8f4251708a44.png",Pizza,6.0,45,3.84,Pizzaria la Romani,MODERATE,4.686570167541504
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/ifood_immig_zeria.jpg",Variada,5.0,75,5.1,Immigrati Pizzeria,EXPENSIVE,4.6857099533081055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9cff3fb8-87fa-4610-b37f-e84ce4543831/201809141155_7273e.jpg",Japonesa,5.0,60,3.7,Mayumi Sushi Delivery,CHEAP,4.67943000793457
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904121226_f73377ef-06f8-44a1-a3cc-d2277761278b.png",Carnes,5.0,60,4.0,Ej Espetinhos,CHEAPEST,4.678569793701172
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201901311111_496529b5-3911-4263-90ab-8830ec878813.png",Brasileira,4.9,40,2.47,Bar do Coronel,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bbd2bb5f-7603-4640-84a4-2636ea5857db/201903081239_what.jpeg",Brasileira,4.9,35,4.37,Bambino's Restaurante,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902051246_135f0403-199e-4c19-b3fd-a777863a794d.jpg",Açaí,4.9,30,1.56,Summer Food,CHEAPEST,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/b534a9d4-c77a-4dcb-8427-42759a13f056/201903142225_class.jpg",Salgados,4.9,30,1.59,Lanchonete Classe a,CHEAPEST,1.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902091333_d284e9d3-12ae-46c4-88be-255f6617bbb0.jpg",Doces & Bolos,4.9,27,0.89,Amendoa la Doceria,CHEAPEST,4.5
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902110939_9bf8ab6e-7688-4522-aab8-bf7cb38775d4.jpg",Brasileira,4.9,32,4.32,Frango Mineiro Sjc,CHEAPEST,4.599999904632568
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902120923_5ada1818-b3b8-4ed6-af04-bc0576c6454b.png",Marmita,4.9,30,2.56,Cantina das Meninas,CHEAPEST,3.666670083999634
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902142021_cb0a1cc1-42f6-40a1-bcf6-daad3644923c.jpg",Pizza,4.9,60,2.71,Croacia Sports Bar,CHEAPEST,4.666669845581055
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902161231_1d7909a8-cea6-490f-bc54-89ca3632c91c.jpg",Bebidas,4.9,60,4.15,Empório Tudo de Bom,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902161227_3d9dbc79-cacf-4ece-b905-d3d1c4ca7775.jpg",Açaí,4.9,60,2.99,Empório Real,CHEAPEST,4.5
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/fdd590d1-e587-4f55-86ff-b53604e6410b/201904091818_dTsb_i.jpg",Lanches,4.9,100,4.47,Lanches Big Bom,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902181945_5073e80e-fb1a-4527-bfda-94af868b0a61.png",Brasileira,4.9,60,3.63,Londons Bar,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902191304_c46328e5-5be0-448a-b438-a85e638d2e2b.jpg",Brasileira,4.9,60,3.6,Sabor e Saude,CHEAPEST,4.428569793701172
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/3aab13ea-3bfc-4771-8691-fabb04b8beb9/201902192159_image.jpg",Bebidas,8.9,70,6.48,Adega Quente,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201902211245_9df542a4-a098-4408-b157-988d68984311.jpg",Pizza,4.9,40,0.75,Pizzaria Villa D'aldea,EXPENSIVE,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903131411_ff38ff72-40c6-4f05-ba4e-4f4000a9b9db.jpg",Lanches,4.9,60,4.43,Burguer House,CHEAPEST,4.428569793701172
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/8ac9c213-61c7-4a35-87ce-e5ee2dd9388c/201903111007_slogo.jpg",Marmita,3.0,60,4.01,A Marmitaria,CHEAPEST,4.438600063323975
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903061752_06c41872-dc17-47ed-92e5-3f487d7ff11d.png",Padaria,4.9,60,3.61,Duplo Sabor,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/fc906eb2-8345-433a-ae6e-ede740e449fa/201903121510_image.png",Marmita,5.0,35,4.3,Restaurante e Pizzaria Sabor do Alho,CHEAPEST,4.714290142059326
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bebccf32-6209-4ac7-aeea-a0afa71908bb/201903110841_imag.jpeg",Lanches,4.9,60,2.71,Pomar - Lanches e Marmitex,CHEAPEST,4.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/353ff131-c8b9-4059-b4bf-2c3c2b06c771/201903181143_image.jpg",Carnes,4.9,60,6.89,B&b Churrascos e Eventos,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903130911_7fb3202f-eef5-4384-8892-58bd3e867563.jpg",Brasileira,4.9,40,1.26,Bar do Deis,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bf3a71a2-fe6e-41ec-b338-b5222643647a/201903130030_image.jpg",Congelados,7.0,30,4.33,Proteijo Pao de Queijo,CHEAP,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/bb2574d4-a32a-4dcf-a567-574b7a94328d/201903141413_image.jpg",Brasileira,0.0,40,2.01,Restaurante Jardim do Golfe,CHEAPEST,3.375
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903142159_90695405-c0c0-4348-88e9-a7ec796dff5e.jpg",Brasileira,4.9,60,2.38,La Panqueca,CHEAPEST,3.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/4a8cd294-efce-4720-b287-f7abf14b3a2a/201903191610_image.jpg",Peruana,4.9,60,3.1,Cevicheria Don Enrique,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903181927_ee4651e8-b042-475e-8729-d56acf201ac2.png",Saudável,4.9,60,3.2,Saúde Com Sabor,CHEAPEST,4.714290142059326
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903261645_66345299-0f44-40ba-a35f-c240fab57107.png",Brasileira,4.9,60,2.54,Chico's Food,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903232128_ef022478-1c2c-4cf3-bef3-a5ef8c256da8.png",Pizza,4.9,80,1.38,Oliver Pizzaria,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/3b86cca0-8ab0-4666-ab3f-c28426f628f7/201903281526_SQnn_.jpeg",Açaí,4.9,40,2.38,Boutique do Açai,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d6b1fe42-8672-4dea-baff-d964635c64bd/201903221448_image.jpg",Pizza,12.0,60,11.87,Tubarao Pizzas,EXPENSIVE,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903231404_d7223208-7b0d-464e-9987-b09b8f016329.jpg",Brasileira,4.9,40,1.32,Restaurante Villa Velha,MODERATE,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/02b4b784-d56b-4747-965d-c1a785f0efdf/201903252037_7h0O_i.jpg",Pizza,4.9,40,1.33,Ritorno Sanja Borda Vulcao,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/9e075ffa-876e-478e-8cf5-6ad6ade1f26d/201904012043_0ZJw_l.png",Lanches,4.9,60,3.99,Super Dog Laches,CHEAPEST,3.666670083999634
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/8606b0c9-916d-4e8e-8b98-4f8e53eed4ad/201903291709_dI9Z_i.png",Salgados,9.0,90,5.43,Neyde Buffet,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201903301911_a5a5a950-10f4-463b-841e-9fca9d66e072.jpg",Brasileira,4.9,60,3.91,Traira & Cia,CHEAP,5.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904291238_3748ab9d-bc3b-4698-a521-cc65c1536b06.png",Doces & Bolos,10.9,60,1.39,Giuliana Flores Sj dos Campos,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904011241_599b330b-1530-4187-935a-fb9c6623f7a4.jpg",Salgados,4.9,60,3.73,Espetinho do Papai,CHEAPEST,3.625
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/7789d16c-9db8-4fa7-a208-cd1fc5be346a/201904092004_L4Vp_.jpeg",Lanches,0.0,20,0.51,Lanchonete Esplanada,CHEAPEST,2.666670083999634
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/2349177a-4cbd-4ca7-8bdb-8f41feee1e1b/201904031319_0OyC_i.png",Pizza,12.0,75,8.9,Pizzaria Bela Jully,MODERATE,4.75
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/37a75629-6fd4-450f-b134-35311a16b235/201904040033_1MKc_i.png",Marmita,4.9,40,1.01,Dom Badini,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201904291238_519ca637-3152-4250-84ee-c888115489ff.png",Doces & Bolos,10.9,60,2.62,Giuliana Flores Sj dos Campos 2,CHEAP,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d3e24ce4-5650-4a79-bf16-a098994e77b0/201904041606_uXKF_i.jpg",Lanches,4.9,60,3.85,Migliore,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/fc9d81cf-f246-41a9-ad6c-aa472675a1ed/201904221134_sJkz_.jpeg",Açaí,4.9,40,2.15,Rei do Fogão,CHEAPEST,0.0
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/1d253761-2b99-436a-8e43-aa9c6dd98657/201904151600_Jw8K_i.png",Lanches,5.0,50,3.16,Hamburgueria Fred & Leo,CHEAPEST,4.888889789581299
+"https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/4d3e5212-f6e2-41f1-93e7-4aa194fb9c9d/201904091904_nvh6_i.jpg",Marmita,0.0,40,2.12,Papagaios Grill,CHEAPEST,0.0
