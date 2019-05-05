@@ -12,7 +12,7 @@
       </v-list-tile>
       <v-list-tile/>
 
-      <v-item-group>
+      <v-item-group v-if="groups.length > 0">
         <v-container grid-list-md>
           <v-layout wrap column>
             <v-flex v-for="group in groups" :key="group.name" xs12 md4>

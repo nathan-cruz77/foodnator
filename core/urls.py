@@ -8,4 +8,5 @@ urlpatterns = [
     url(r'^api/whoami$', views.whoami),
 
     url(r'^api/cuisines$', views.list_cuisines),
+    url(r'^api/groups$', views.list_groups),
 ]

@@ -15,10 +15,11 @@ const api = {
   },
   async cuisines(){
     const { data } = await get('/api/cuisines');
-    return data
+    return data;
   },
-  groups(username) {
-    return get('/api/groups', { username });
+  async groups() {
+    const { data } = await get('/api/groups');
+    return data;
   },
   updatePreferences(username, preferences){
     return post('/api/user/preferences', { username, preferences });

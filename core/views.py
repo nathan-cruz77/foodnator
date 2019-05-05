@@ -10,6 +10,7 @@ from commons.django_views_utils import ajax_login_required
 
 from core.service import log_svc
 from core.service import cuisine_svc
+from core.service import group_svc
 
 
 def dapau(request):
@@ -49,6 +50,11 @@ def whoami(request):
 
 def list_cuisines(request):
     return JsonResponse({'data': cuisine_svc.list_cuisines()})
+
+
+@ajax_login_required
+def list_groups(request):
+    return JsonResponse({'data': group_svc.list_groups(request.user)})
 
 
 def _user2dict(user):

@@ -17,7 +17,7 @@ export const actions = {
   async fetchGroups({ commit, state }) {
     if (!state.loggedUser) return
 
-    const { data } = await AppApi.groups(state.loggedUser.username)
+    const { data } = await AppApi.groups()
     commit('setGroups', data)
   },
 

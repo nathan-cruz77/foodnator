@@ -38,9 +38,9 @@ const api = {
   cuisines(){
     return mockasync(['Lanches', 'Brasileira', 'Pizza']);
   },
-  groups(username) {
+  groups() {
     return mockasync([
-      {name: `Grupão de "${username}"`},
+      {name: 'Grupão'},
       {name: 'Treta da neurose'},
       {name: 'Todo mundo null'},
       {name: 'Só no back-end'},
