@@ -77,7 +77,10 @@ const api = {
       price_range: 1,
       avatar: "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d939d9aa-8a1c-4d0f-aec1-0024aa1f579c/201901101130_28684.png",
     });
-  }
+  },
+  newGroup(_) {
+    return mockasync('/api/group/new')
+  },
 };
 
 export default api;

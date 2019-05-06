@@ -34,7 +34,10 @@ const api = {
   },
   fetchRestaurant(restaurantSlug) {
     return get(`/api/restaurant/${restaurantSlug}`);
-  }
+  },
+  newGroup(groupData) {
+    return post('/api/group/new', groupData);
+  },
 }
 export default api;
 

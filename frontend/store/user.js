@@ -42,6 +42,11 @@ export const actions = {
       dispatch('fetchGroups')
     }
   },
+
+  async newGroup({ dispatch, commit }, groupData) {
+    await AppApi.newGroup(groupData)
+    dispatch('fetchGroups')
+  },
 }
 
 export const mutations = {

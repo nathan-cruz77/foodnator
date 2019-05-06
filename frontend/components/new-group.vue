@@ -43,7 +43,14 @@
 
       <v-list-tile>
         <v-list-tile-content style="align-items: center">
-          <v-btn :disabled="createDisabled" :class="btnClass" color="red">Create group</v-btn>
+          <v-btn
+            @click="createGroup()"
+            :disabled="createDisabled"
+            :class="btnClass"
+            :loading="creatingGroup"
+            color="red">
+            Create group
+          </v-btn>
         </v-list-tile-content>
       </v-list-tile>
     </v-list>
@@ -62,6 +69,7 @@ export default {
     loading: false,
     users: [],
     userSearch: null,
+    creatingGroup: false,
   }),
 
   watch: {
@@ -91,9 +99,24 @@ export default {
 
   methods: {
     ...mapActions('toolbar', ['backToGroups']),
+    ...mapActions('user', ['newGroup']),
+    async createGroup() {
+      this.creatingGroup = true
+      await this.newGroup({ name: this.name, users: this.selectedUsers })
+      this.clearData()
+      this.backToGroups()
+    },
     remove(index) {
       if (index >= 0) this.selectedUsers.splice(index, 1)
     },
+    clearData() {
+      this.name = ''
+      this.selectedUsers = []
+      this.loading = false
+      this.users = []
+      this.userSearch = null
+      this.creatingGroup = false
+    }
   },
 }
 </script>
