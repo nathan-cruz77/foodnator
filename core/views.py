@@ -13,6 +13,7 @@ from core.service import cuisine_svc
 from core.service import group_svc
 from core.service import preference_svc
 from core.service import restaurant_svc
+from core.service import user_svc
 
 
 def dapau(request):
@@ -72,6 +73,11 @@ def find_restaurant(request):
 
 def fetch_restaurant(request, slug=''):
     return JsonResponse(restaurant_svc.fetch(slug))
+
+
+@ajax_login_required
+def search_users(request):
+    return JsonResponse({'data': user_svc.search(request.GET['query'])})
 
 
 def _user2dict(user):

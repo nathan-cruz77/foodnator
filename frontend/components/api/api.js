@@ -24,8 +24,9 @@ const api = {
   updatePreferences(preferences){
     return post('/api/user/preferences', preferences);
   },
-  searchUsers(query) {
-    return get('/api/users/search', { query });
+  async searchUsers(query) {
+    const { data } = await get('/api/users/search', { query });
+    return data;
   },
   async findRestaurant(group) {
     const { data } = await get('/api/find_restaurant', group);
