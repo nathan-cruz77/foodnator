@@ -81,6 +81,12 @@ def search_users(request):
     return JsonResponse({'data': data})
 
 
+@ajax_login_required
+def new_group(request):
+    data = group_svc.new(request.user, request.POST)
+    return JsonResponse({})
+
+
 def _user2dict(user):
     d = {
         'id': user.id,

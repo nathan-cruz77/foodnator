@@ -22,3 +22,18 @@ class TestGroup(TestCase):
 
         groups = [g['name'] for g in json.loads(r.content.decode('utf-8'))['data']]
         self.assertEqual(['Grupão doido', 'Só no back-end'], groups)
+
+    def test_new_group(self):
+        client = Client()
+        client.force_login(User.objects.get(username='bla0'))
+
+        users = [u.username for u in User.objects.exclude(username='bla0').all()]
+
+        r = client.post('/api/group/new', {
+            'name': 'Pica das galáxias',
+            'users': users
+        })
+        self.assertEqual(200, r.status_code)
+
+        group = Group.objects.get(name='Pica das galáxias')
+        self.assertEqual(3, len(group.users.all()))
