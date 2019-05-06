@@ -15,9 +15,17 @@
             DELIVERY ${{ restaurant.delivery_fee }}
           </span>
         </div>
-        <div class="item text-vertical-centralized restaurant-rating">
-          <v-icon color="rgba(230, 166, 76, 1)">star</v-icon>
-          {{ restaurant.rating }}
+        <div class="item text-vertical-centralized">
+          <div class="restaurant-rating">
+            <v-icon color="rgba(230, 166, 76, 1)">star</v-icon>
+            {{ restaurant.rating }}
+          </div>
+          <div class="restaurant-price">
+            <template v-for="i in restaurant.price_range">
+              <span color="green accent-4">$</span>
+              <span style="display: none">{{ i }}</span>
+            </template>
+          </div>
         </div>
       </div>
     </v-card>
@@ -26,11 +34,15 @@
 
 <style>
 .image {
-  padding: 16px;
   border-radius: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .image-container {
+  padding: 16px;
   height: 200px;
   width: 200px;
 }
@@ -59,7 +71,7 @@
 .item {
   width: 250px;
   min-height: 45px;
-  /* border: 1px solid black; */
+  padding-right: 16px;
 }
 
 .restaurant-name {
