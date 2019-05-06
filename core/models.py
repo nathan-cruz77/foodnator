@@ -35,8 +35,21 @@ class PriceRange(models.Model):
 
         return cls.objects.get(name=mapping[value])
 
+    def to_int(self):
+        mapping = {
+            'CHEAPEST': 1,
+            'MODERATE': 2,
+            'CHEAP': 3,
+            'EXPENSIVE': 4,
+            'MOST_EXPENSIVE': 5,
+        }
+        return mapping[self.name]
+
     def __str__(self):
         return '{} - {}'.format(self.id, self.name)
+
+    def __lt__(self, other):
+        return self.to_int() < other.to_int()
 
 
 class Cuisine(models.Model):
