@@ -71,6 +71,17 @@ class Restaurant(models.Model):
     def __str__(self):
         return '{} - {}'.format(self.id, self.name)
 
+    def to_dict(self):
+        return {
+            'name': self.name,
+            'slug': self.slug,
+            'delivery_fee': self.delivery_fee,
+            'rating': self.rating,
+            'cuisine': self.cuisine.name,
+            'price_range': self.price_range.to_int(),
+            'avatar': self.avatar,
+        }
+
 
 class Preference(models.Model):
     only_free_delivery = models.BooleanField()

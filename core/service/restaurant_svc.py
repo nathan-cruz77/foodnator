@@ -47,3 +47,7 @@ def find(user, group_data):
         return 'not-found'
 
     return random.choice(result).slug
+
+
+def fetch(restaurant_slug):
+    return Restaurant.objects.get(slug=restaurant_slug).to_dict()

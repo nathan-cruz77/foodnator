@@ -2,22 +2,22 @@
   <div class="container--centralized full-width">
     <v-card class="container--centralized">
       <div class="image-container container--centralized">
-        <img class="image" src="https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d939d9aa-8a1c-4d0f-aec1-0024aa1f579c/201901101130_28684.png">
+        <img class="image" :src="restaurant.avatar">
       </div>
       <div class="container--column">
         <div class="item text-vertical-centralized restaurant-name">{{ restaurant.name }}</div>
         <div class="item text-vertical-centralized restaurant-cuisine">{{ restaurant.cuisine }}</div>
         <div class="item text-vertical-centralized">
-          <span v-if="restaurant.delivery_fee == 0" class="restaurant-delivery restaurant-delivery--free">
+          <span v-if="parseFloat(restaurant.delivery_fee) == 0" class="restaurant-delivery restaurant-delivery--free">
             FREE DELIVERY
           </span>
           <span v-else class="restaurant-delivery">
-            DELIVERY ${{ restaurant.delivery_fee.toFixed(2) }}
+            DELIVERY ${{ restaurant.delivery_fee }}
           </span>
         </div>
         <div class="item text-vertical-centralized restaurant-rating">
           <v-icon color="rgba(230, 166, 76, 1)">star</v-icon>
-          {{ restaurant.rating.toFixed(1) }}
+          {{ restaurant.rating }}
         </div>
       </div>
     </v-card>

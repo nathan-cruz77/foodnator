@@ -65,7 +65,7 @@ const api = {
     ]);
   },
   findRestaurant({ name }) {
-    return mockasync(`restaurante-bixao-${name}`);
+    return mockasync({ data: `restaurante-bixao-${name}` });
   },
   fetchRestaurant(restaurantSlug) {
     return mockasync({
@@ -74,7 +74,8 @@ const api = {
       delivery_fee: 7,
       rating: 4.8,
       cuisine: 'Brasileira',
-      price_range: 'CHEAPEST',
+      price_range: 1,
+      avatar: "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d939d9aa-8a1c-4d0f-aec1-0024aa1f579c/201901101130_28684.png",
     });
   }
 };

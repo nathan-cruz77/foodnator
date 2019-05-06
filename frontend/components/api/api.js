@@ -27,8 +27,9 @@ const api = {
   searchUsers(query) {
     return get('/api/users/search', { query });
   },
-  findRestaurant(group) {
-    return get('/api/find_restaurant', group);
+  async findRestaurant(group) {
+    const { data } = await get('/api/find_restaurant', group);
+    return data;
   },
   fetchRestaurant(restaurantSlug) {
     return get(`/api/restaurant/${restaurantSlug}`);

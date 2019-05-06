@@ -70,6 +70,10 @@ def find_restaurant(request):
     return JsonResponse({'data': restaurant_svc.find(request.user, request.GET)})
 
 
+def fetch_restaurant(request, slug=''):
+    return JsonResponse(restaurant_svc.fetch(slug))
+
+
 def _user2dict(user):
     d = {
         'id': user.id,
