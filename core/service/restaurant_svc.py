@@ -4,9 +4,17 @@ from core.models import Group
 from core.models import Restaurant
 
 
-def find(group_data):
-    group = Group.objects.get(id=group_data['id'])
-    preferences = [u.preference for u in group.users.all() if hasattr(u, 'preference')]
+def get_preferences(user, group_data):
+    try:
+        users = Group.objects.get(id=group_data['id']).users.all()
+    except KeyError:
+        users = [user]
+
+    return [u.preference for u in users if hasattr(u, 'preference')]
+
+
+def find(user, group_data):
+    preferences = get_preferences(user, group_data)
 
     min_rating = max(p.min_rating for p in preferences)
     max_price = min(p.price_range for p in preferences)

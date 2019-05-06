@@ -50,3 +50,23 @@ class TestFindRestaurant(TestCase):
         self.assertEqual(restaurant.cuisine.name, 'Brasileira')
         self.assertEqual(restaurant.delivery_fee, 0)
         self.assertGreaterEqual(restaurant.rating, 2)
+
+    def test_find_restaurant_for_user(self):
+        client = Client()
+        user = fixtures.user_jon()
+
+        client.force_login(user)
+        client.post('/api/user/preferences', {
+            'price': '1',
+            'freeDelivery': 'false',
+            'selectedCuisines': ['Brasileira', 'Italiana'],
+            'rejectedCuisines': ['Variada'],
+            'rating': '0',
+        })
+
+        r = client.get('/api/find_restaurant')
+        self.assertEqual(r.status_code, 200)
+
+        restaurant_slug = json.loads(r.content.decode('utf-8'))['data']
+        restaurant = Restaurant.objects.get(slug=restaurant_slug)
+        self.assertIn(restaurant.cuisine.name, ['Brasileira', 'Italiana'])

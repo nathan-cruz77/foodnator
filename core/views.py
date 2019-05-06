@@ -67,7 +67,7 @@ def update_preferences(request):
 
 @ajax_login_required
 def find_restaurant(request):
-    return JsonResponse({'data': restaurant_svc.find(request.GET)})
+    return JsonResponse({'data': restaurant_svc.find(request.user, request.GET)})
 
 
 def _user2dict(user):
