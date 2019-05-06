@@ -22,5 +22,5 @@ class TestSearchUsers(TestCase):
         self.assertEqual(r.status_code, 200)
 
         suggestions = json.loads(r.content.decode('utf-8'))['data']
-        self.assertEqual(len(suggestions), 3)
+        self.assertEqual(len(suggestions), 2)
         self.assertNotIn('jon', suggestions)
