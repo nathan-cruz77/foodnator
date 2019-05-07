@@ -6,10 +6,8 @@ import json
 
 
 def update(user, preferences):
-    user_preference = getattr(user, 'preference', None)
-
-    if user_preference is not None:
-        user_preference.delete()
+    if hasattr(user, 'preference'):
+        user.preference.delete()
 
     p = Preference(
         min_rating=preferences['rating'],
@@ -26,3 +24,24 @@ def update(user, preferences):
     if preferences.getlist('rejectedCuisines', None):
         cuisines = Cuisine.objects.filter(name__in=preferences.getlist('rejectedCuisines'))
         p.rejected_cuisines.add(*cuisines.all())
+
+
+def load(user):
+    user_preference = getattr(user, 'preference', None)
+
+    if user_preference is None:
+        return {
+            'price': 1,
+            'freeDelivery': False,
+            'selectedCuisines': [],
+            'rejectedCuisines': [],
+            'rating': 0,
+        }
+
+    return {
+        'price': user_preference.price_range.to_int(),
+        'freeDelivery': user_preference.only_free_delivery,
+        'selectedCuisines': [c.name for c in user_preference.selected_cuisines.all()],
+        'rejectedCuisines': [c.name for c in user_preference.rejected_cuisines.all()],
+        'rating': float(user_preference.min_rating),
+    }

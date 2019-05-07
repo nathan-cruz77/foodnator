@@ -4,6 +4,7 @@ import json
 from django.contrib import auth
 from django.http.response import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
+from django.db.utils import IntegrityError
 
 from commons.django_model_utils import get_or_none
 from commons.django_views_utils import ajax_login_required
@@ -61,9 +62,17 @@ def list_groups(request):
 
 
 @ajax_login_required
-def update_preferences(request):
-    preference_svc.update(request.user, request.POST)
-    return JsonResponse({})
+def preferences(request):
+    if request.method == 'POST':
+        try:
+            preference_svc.update(request.user, request.POST)
+        except IntegrityError:
+            print('Trying to insert preference without deleting the previous one')
+        finally:
+            return JsonResponse({})
+
+    if request.method == 'GET':
+        return JsonResponse(preference_svc.load(request.user))
 
 
 @ajax_login_required
