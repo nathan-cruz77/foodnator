@@ -18,7 +18,8 @@ def load_ifood_url(apps, _):
 
     for item in restaurant_data:
         try:
-            r = Restaurant.objects.get(avatar=item['avatar'])
+            print(item['avatar'])
+            r = Restaurant.objects.get(avatar=item['avatar'], name=item['name'])
             r.ifood_url = item['url']
             r.save()
         except ObjectDoesNotExist:
