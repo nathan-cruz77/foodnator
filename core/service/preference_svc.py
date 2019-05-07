@@ -17,12 +17,14 @@ def update(user, preferences):
     )
     p.save()
 
-    if preferences.getlist('selectedCuisines', None):
-        cuisines = Cuisine.objects.filter(name__in=preferences.getlist('selectedCuisines'))
+    if preferences.get('selectedCuisines', None):
+        selected_cuisines = preferences.get('selectedCuisines').split(',')
+        cuisines = Cuisine.objects.filter(name__in=selected_cuisines)
         p.selected_cuisines.add(*cuisines.all())
 
-    if preferences.getlist('rejectedCuisines', None):
-        cuisines = Cuisine.objects.filter(name__in=preferences.getlist('rejectedCuisines'))
+    if preferences.get('rejectedCuisines', None):
+        rejected_cuisines = preferences.get('rejectedCuisines').split(',')
+        cuisines = Cuisine.objects.filter(name__in=rejected_cuisines)
         p.rejected_cuisines.add(*cuisines.all())
 
 
