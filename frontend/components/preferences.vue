@@ -78,8 +78,12 @@ export default {
 
   async mounted() {
     await this.fetchCuisines()
+    await this.loadPreferences()
+
     this.availableSelectionCuisines = _.cloneDeep(this.cuisines)
     this.availableRejectionCuisines = _.cloneDeep(this.cuisines)
+
+    this.preferences = _.cloneDeep(this.storePreferences)
   },
 
   watch: {
@@ -101,11 +105,12 @@ export default {
 
   computed: {
     ...mapState('user', ['cuisines']),
+    ...mapState('user', { storePreferences: 'preferences' }),
     ...mapState('toolbar', ['showPreferences']),
   },
   methods: {
     ...mapActions('toolbar', ['toggleShowPreferences']),
-    ...mapActions('user', ['fetchCuisines', 'updatePreferences']),
+    ...mapActions('user', ['fetchCuisines', 'updatePreferences', 'loadPreferences']),
   },
 }
 </script>

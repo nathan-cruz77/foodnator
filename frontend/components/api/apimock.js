@@ -82,6 +82,15 @@ const api = {
   newGroup(_) {
     return mockasync('/api/group/new')
   },
+  loadPreferences() {
+    return mockasync({
+      price: 1,
+      freeDelivery: true,
+      selectedCuisines: [],
+      rejectedCuisines: [],
+      rating: 0,
+    })
+  },
 };
 
 export default api;

@@ -3,9 +3,15 @@ import AppApi from '~apijs'
 export const state = () => ({
   loggedUser: undefined,
   cuisines: [],
-  preferences: {},
   groups: [],
   selectedGroup: null,
+  preferences:  {
+    price: 1,
+    freeDelivery: false,
+    selectedCuisines: [],
+    rejectedCuisines: [],
+    rating: 0,
+  },
 })
 
 export const actions = {
@@ -40,12 +46,18 @@ export const actions = {
     if (user) {
       commit('setLoggedUser', user)
       dispatch('fetchGroups')
+      dispatch('loadPreferences')
     }
   },
 
   async newGroup({ dispatch, commit }, groupData) {
     await AppApi.newGroup(groupData)
     dispatch('fetchGroups')
+  },
+
+  async loadPreferences({ commit }) {
+    const { data } = await AppApi.loadPreferences()
+    commit('setPreferences', data)
   },
 }
 

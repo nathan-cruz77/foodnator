@@ -38,6 +38,9 @@ const api = {
   newGroup(groupData) {
     return post('/api/group/new', groupData);
   },
+  loadPreferences() {
+    return get('/api/user/preferences');
+  },
 }
 export default api;
 
