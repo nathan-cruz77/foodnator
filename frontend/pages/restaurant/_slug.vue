@@ -1,6 +1,6 @@
 <template>
   <div class="container--centralized flex-column full-width">
-    <v-card class="container--centralized">
+    <v-card class="container--centralized" v-if="restaurant !== 'not-found'">
       <div class="image-container container--centralized">
         <img class="image" :src="restaurant.avatar">
       </div>
@@ -30,34 +30,33 @@
       </div>
     </v-card>
 
-    <v-btn :loading="loading" :disabled="loading" @click="findRestaurant()" large color="red darken-1 white--text" class="retry-button">
-      Try Again
-    </v-btn>
+    <v-card v-else class="container--centralized">
+      No restaurant found, try other preferences.
+    </v-card>
+
+    <find-restaurant label="Try Again" class="retry-button"/>
   </div>
 </template>
 
 <script>
 import AppApi from '~apijs'
+import FindRestaurant from '~/components/find-restaurant'
 
 export default {
   async asyncData({ params }) {
     const { slug } = params
-    const { data } = await AppApi.fetchRestaurant(slug)
 
-    return { restaurant: data }
+    try {
+      const { data } = await AppApi.fetchRestaurant(slug)
+      return { restaurant: data }
+    } catch(error) {
+      if (error.response.status === 404) return { restaurant: 'not-found' }
+      throw error
+    }
   },
 
-  data: () => ({
-    loading: false,
-  }),
-
-  methods: {
-    async findRestaurant() {
-      this.loading = true
-      const { data } = await AppApi.findRestaurant(this.selectedGroup)
-      this.loading = false
-      this.$router.push({ path: `/restaurant/${data}` })
-    },
+  components: {
+    FindRestaurant,
   },
 }
 </script>

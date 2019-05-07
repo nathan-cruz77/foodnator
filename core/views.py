@@ -72,6 +72,8 @@ def find_restaurant(request):
 
 
 def fetch_restaurant(request, slug=''):
+    if slug == 'not-found':
+        return JsonResponse({}, status=404)
     return JsonResponse(restaurant_svc.fetch(slug))
 
 

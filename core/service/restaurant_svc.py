@@ -41,12 +41,10 @@ def find(user, group_data):
     if rejected_cuisines:
         q = q.exclude(cuisine__in=rejected_cuisines)
 
-    result = q.all()
-
-    if not result:
+    if not q.exists():
         return 'not-found'
 
-    return random.choice(result).slug
+    return random.choice(q.all()).slug
 
 
 def fetch(restaurant_slug):
