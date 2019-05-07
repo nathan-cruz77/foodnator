@@ -25,6 +25,11 @@ export const actions = {
   backToGroups({ commit }) {
     commit('setLeftTab', 'groups')
   },
+
+  closeTabs({ commit }) {
+    commit('setLeftTab', null)
+    commit('setShowPreferences', false)
+  },
 }
 
 export const mutations = {

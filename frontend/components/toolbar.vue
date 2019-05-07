@@ -41,7 +41,7 @@
     <v-btn v-else flat ripple class="ma-0 ml-5" @click.stop="openLoginDialog($event)">Login</v-btn>
 
     <login-dialog ref="login_dialog"/>
-    <v-btn @click.stop="toggleShowPreferences()" icon>
+    <v-btn v-if="loggedUser" @click.stop="toggleShowPreferences()" icon>
       <v-icon>settings</v-icon>
     </v-btn>
   </v-toolbar>
@@ -60,7 +60,7 @@ export default {
     ...mapGetters('user', ['loggedUser']),
   },
   methods: {
-    ...mapActions('toolbar', ['toggleShowPreferences', 'toggleGroups']),
+    ...mapActions('toolbar', ['toggleShowPreferences', 'toggleGroups', 'closeTabs']),
     ...mapMutations('user', ['setLoggedUser']),
     openLoginDialog (evt) {
       this.$refs.login_dialog.open();
@@ -68,6 +68,7 @@ export default {
     },
     async logout(){
       await AppApi.logout()
+      this.closeTabs()
       this.setLoggedUser(null)
     }
   },
