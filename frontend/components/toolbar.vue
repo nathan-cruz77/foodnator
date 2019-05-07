@@ -3,7 +3,9 @@
     <v-btn icon v-if="loggedUser" @click="toggleGroups()">
       <v-icon>group</v-icon>
     </v-btn>
-    <v-toolbar-title>Foodnator</v-toolbar-title>
+    <v-toolbar-title>
+      <v-card flat :to="{ name: 'index' }" color="red--text">Foodnator</v-card>
+    </v-toolbar-title>
     <v-spacer/>
 
     <v-menu v-if="loggedUser" offset-y>
