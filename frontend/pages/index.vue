@@ -2,11 +2,14 @@
   <v-layout column justify-center align-center>
     <div class="display-2">Can't choose where to eat?</div>
     <div class="display-2">We got you covered!</div>
-    <v-btn :loading="loading" :disabled="loading" @click="findRestaurant()" large color="red darken-1 white--text">
+    <v-btn
+      :loading="loading"
+      :disabled="loading"
+      @click="findRestaurant()"
+      color="red darken-1 white--text"
+      class="find-restaurant-button"
+      large>
       Find restaurant
-      <template slot="loader">
-
-      </template>
     </v-btn>
   </v-layout>
 </template>
