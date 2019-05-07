@@ -27,8 +27,12 @@ export const actions = {
     commit('setGroups', data)
   },
 
-  selectGroup({ commit }, group) {
-    commit('setSelectedGRoup', group)
+  selectGroup({ commit, state }, group) {
+    if (group === state.selectedGroup) {
+      commit('setSelectedGRoup', null)
+    } else {
+      commit('setSelectedGRoup', group)
+    }
   },
 
   updatePreferences({ commit, state }, preferences) {
