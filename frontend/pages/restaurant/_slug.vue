@@ -39,12 +39,13 @@
         Check on Ifood
       </v-btn>
 
-      <find-restaurant label="Try Again"/>
+      <find-restaurant label="Try Again" v-if="loggedUser"/>
     </div>
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import AppApi from '~apijs'
 import FindRestaurant from '~/components/find-restaurant'
 
@@ -63,6 +64,10 @@ export default {
 
   components: {
     FindRestaurant,
+  },
+
+  computed: {
+    ...mapState('user', ['loggedUser']),
   },
 
   methods: {
