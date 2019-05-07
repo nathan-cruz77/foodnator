@@ -33,7 +33,7 @@
 
           <template slot="selection" slot-scope="{ selected, item, index }">
             <v-chip @input="remove(index)" :selected="selected" close class="chip--select-multi">
-              {{ item.username }}
+              {{ item }}
             </v-chip>
           </template>
 
