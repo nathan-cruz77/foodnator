@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import AppApi from '~apijs'
 
 export default {
@@ -19,6 +20,10 @@ export default {
   data: () => ({
     loading: false,
   }),
+
+  computed: {
+    ...mapState('user', ['selectedGroup']),
+  },
 
   methods: {
     async findRestaurant() {
