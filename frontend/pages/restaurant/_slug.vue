@@ -1,5 +1,5 @@
 <template>
-  <div class="container--centralized full-width">
+  <div class="container--centralized flex-column full-width">
     <v-card class="container--centralized">
       <div class="image-container container--centralized">
         <img class="image" :src="restaurant.avatar">
@@ -29,6 +29,10 @@
         </div>
       </div>
     </v-card>
+
+    <v-btn :loading="loading" :disabled="loading" @click="findRestaurant()" large color="red darken-1 white--text" class="retry-button">
+      Try Again
+    </v-btn>
   </div>
 </template>
 
@@ -101,6 +105,15 @@
   color: #e6a64c;
   flex-grow: 1;
 }
+
+.flex-column {
+  flex-direction: column;
+}
+
+.retry-button {
+  /* width: 40%; */
+  margin-top: 100px;
+}
 </style>
 
 <script>
@@ -112,6 +125,19 @@ export default {
     const { data } = await AppApi.fetchRestaurant(slug)
 
     return { restaurant: data }
+  },
+
+  data: () => ({
+    loading: false,
+  }),
+
+  methods: {
+    async findRestaurant() {
+      this.loading = true
+      const { data } = await AppApi.findRestaurant(this.selectedGroup)
+      this.loading = false
+      this.$router.push({ path: `/restaurant/${data}` })
+    },
   },
 }
 </script>
