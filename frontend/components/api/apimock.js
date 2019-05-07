@@ -75,7 +75,8 @@ const api = {
       rating: 4.8,
       cuisine: 'Brasileira',
       price_range: 1,
-      avatar: "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d939d9aa-8a1c-4d0f-aec1-0024aa1f579c/201901101130_28684.png",
+      avatar: 'https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/d939d9aa-8a1c-4d0f-aec1-0024aa1f579c/201901101130_28684.png',
+      ifood_url: 'https://www.ifood.com.br/delivery/sao-jose-dos-campos-sp/lig-lig---sao-jose-dos-campos-vila-adyana/a31e0a3a-09c0-4097-a348-4482fd74a3aa'
     });
   },
   newGroup(_) {

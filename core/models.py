@@ -81,6 +81,7 @@ class Restaurant(models.Model):
             'cuisine': self.cuisine.name,
             'price_range': self.price_range.to_int(),
             'avatar': self.avatar,
+            'ifood_url': self.ifood_url,
         }
 
 

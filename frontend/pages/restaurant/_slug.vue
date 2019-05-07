@@ -34,7 +34,13 @@
       No restaurant found, try other preferences.
     </v-card>
 
-    <find-restaurant label="Try Again" class="retry-button"/>
+    <div class="restaurant-actions">
+      <v-btn v-if="restaurant !== 'not-found'" @click="openOnIfood()" color="rgba(85, 169, 119, 1) white--text">
+        Check on Ifood
+      </v-btn>
+
+      <find-restaurant label="Try Again"/>
+    </div>
   </div>
 </template>
 
@@ -57,6 +63,14 @@ export default {
 
   components: {
     FindRestaurant,
+  },
+
+  methods: {
+    openOnIfood() {
+      if (this.restaurant.ifood_url) {
+        window.open(this.restaurant.ifood_url)
+      }
+    },
   },
 }
 </script>
