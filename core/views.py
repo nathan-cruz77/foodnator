@@ -88,7 +88,7 @@ def fetch_restaurant(request, slug=''):
 
 @ajax_login_required
 def search_users(request):
-    data = user_svc.search(request.user, request.GET['query'])
+    data = user_svc.search(request.user, request.GET.get('query'))
     return JsonResponse({'data': data})
 
 
