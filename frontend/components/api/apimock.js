@@ -91,6 +91,9 @@ const api = {
       rating: 0,
     })
   },
+  newUser(_) {
+    return mockasync({ created: true })
+  },
 };
 
 export default api;

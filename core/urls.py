@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^api/cuisines$', views.list_cuisines),
     url(r'^api/groups$', views.list_groups),
     url(r'^api/user/preferences$', views.preferences),
+    url(r'^api/user/new', views.create_user),
     url(r'^api/find_restaurant$', views.find_restaurant),
     url(r'^api/restaurant/(?P<slug>[\w-]+)$', views.fetch_restaurant),
     url(r'^api/users/search$', views.search_users),

@@ -38,9 +38,14 @@
         </v-list>
       </v-card>
     </v-menu>
-    <v-btn v-else flat ripple class="ma-0 ml-5" @click.stop="openLoginDialog($event)">Login</v-btn>
+    <div v-else style="display: flex">
+      <v-btn flat ripple class="ma-0 ml-5" @click.stop="openDialog('login')">Sign in</v-btn>
+      <v-btn flat ripple class="ma-0 ml-5" @click.stop="openDialog('newUser')">Sign up</v-btn>
+    </div>
 
-    <login-dialog ref="login_dialog"/>
+    <login-dialog ref="login"/>
+    <new-user-dialog ref="newUser"/>
+
     <v-btn v-if="loggedUser" @click.stop="toggleShowPreferences()" icon>
       <v-icon>settings</v-icon>
     </v-btn>
@@ -49,27 +54,28 @@
 
 <script>
 import { mapGetters, mapActions, mapMutations } from 'vuex'
-import loginDialog from '~/components/login-dialog'
+import LoginDialog from '~/components/login-dialog'
+import NewUserDialog from '~/components/new-user-dialog'
 import AppApi from '~apijs'
 
 export default {
   components: {
-    loginDialog,
+    LoginDialog,
+    NewUserDialog,
   },
   computed: {
     ...mapGetters('user', ['loggedUser']),
   },
   methods: {
     ...mapActions('toolbar', ['toggleShowPreferences', 'toggleGroups', 'closeTabs']),
-    ...mapMutations('user', ['setLoggedUser']),
-    openLoginDialog (evt) {
-      this.$refs.login_dialog.open();
-      evt.stopPropagation();
+    ...mapMutations('user', ['clearUserState']),
+    openDialog(component) {
+      this.$refs[component].open();
     },
     async logout(){
       await AppApi.logout()
       this.closeTabs()
-      this.setLoggedUser(null)
+      this.clearUserState()
     }
   },
 }

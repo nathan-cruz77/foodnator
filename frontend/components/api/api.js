@@ -41,6 +41,9 @@ const api = {
   loadPreferences() {
     return get('/api/user/preferences');
   },
+  newUser(data) {
+    return post('/api/user/new', data);
+  }
 }
 export default api;
 

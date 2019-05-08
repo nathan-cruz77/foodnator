@@ -1,16 +1,17 @@
 <template>
   <v-dialog v-model="visible" max-width="500px">
     <v-card>
-        <v-card-title>Sign in</v-card-title>
+        <v-card-title>Sign up</v-card-title>
         <v-card-text>
           <v-container fluid>
             <v-text-field label="Username" required v-model="username"/>
-            <v-text-field label="Password" type="password" required v-model="password" @keyup.enter="loginWrapper()"/>
-            <small style="color: red" v-if="error">Wrong user or password</small>
+            <v-text-field label="Email" required v-model="email"/>
+            <v-text-field label="Password" type="password" required v-model="password" @keyup.enter="createUser()"/>
+            <small style="color: red" v-if="error">Username already in use</small>
           </v-container>
         </v-card-text>
         <v-btn class="blue--text darken-1" flat @click="close()">Cancel</v-btn>
-        <v-btn class="blue--text darken-1" flat @click="loginWrapper()" :loading="loading" :disabled="loading">Sign in</v-btn>
+        <v-btn class="blue--text darken-1" flat @click="createUser()" :loading="loading" :disabled="loading">Sign up</v-btn>
     </v-card>
   </v-dialog>
 </template>
@@ -23,9 +24,10 @@ export default {
   data: () => ({
     visible: false,
     loading: false,
-    username: '',
-    password: '',
     error: false,
+    username: '',
+    email: '',
+    password: '',
   }),
 
   computed: {
@@ -40,13 +42,20 @@ export default {
     close(){
       this.visible = false
     },
-    async loginWrapper(){
+    async createUser(){
       this.loading = true
       this.error = false
 
-      await this.login({ username: this.username, password: this.password })
+      const { data } = await AppApi.newUser({
+        username: this.username,
+        email: this.email,
+        password: this.password,
+      })
 
-      if(this.loggedUser) {
+      console.log(`New User data: ${JSON.stringify(data)}`)
+
+      if (data.created) {
+        await this.login({ username: this.username, password: this.password })
         this.visible = false
       } else {
         this.error = true

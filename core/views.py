@@ -98,6 +98,10 @@ def new_group(request):
     return JsonResponse({})
 
 
+def create_user(request):
+    return JsonResponse(user_svc.new(request.POST))
+
+
 def _user2dict(user):
     d = {
         'id': user.id,

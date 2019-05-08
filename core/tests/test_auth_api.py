@@ -1,8 +1,10 @@
+import json
+
 from core.models import User
 from django.test.client import Client
 from django.test.testcases import TestCase
+
 from core.tests import fixtures
-import json
 
 
 class TestAuthApi(TestCase):
@@ -20,3 +22,16 @@ class TestAuthApi(TestCase):
         r5 = client.get('/api/whoami')
         self.assertEqual(200, r1.status_code)
         info = json.loads(r1.content.decode('utf-8'))
+
+    def test_new_user(self):
+        client = Client()
+        r = client.post('/api/user/new', {
+            'username': 'bla',
+            'email': 'teste@teste.com',
+            'password': 'testeAAAA',
+        })
+
+        self.assertEqual(200, r.status_code)
+
+        data = json.loads(r.content.decode('utf-8'))
+        self.assertTrue(data['created'])

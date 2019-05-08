@@ -76,7 +76,7 @@ export default {
     MultiSelect,
   },
 
-  async mounted() {
+  async created() {
     await this.fetchCuisines()
     await this.loadPreferences()
 

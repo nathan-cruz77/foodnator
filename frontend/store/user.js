@@ -1,6 +1,6 @@
 import AppApi from '~apijs'
 
-export const state = () => ({
+const initialState = () => ({
   loggedUser: undefined,
   cuisines: [],
   groups: [],
@@ -13,6 +13,8 @@ export const state = () => ({
     rating: 0,
   },
 })
+
+export const state = initialState
 
 export const actions = {
   async fetchCuisines({ commit }) {
@@ -85,7 +87,11 @@ export const mutations = {
 
   setSelectedGRoup(state, group) {
     state.selectedGroup = group
-  }
+  },
+
+  clearUserState(state) {
+    Object.assign(state, initialState())
+  },
 }
 
 export const getters = {
