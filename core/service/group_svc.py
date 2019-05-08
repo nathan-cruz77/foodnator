@@ -8,8 +8,7 @@ def list_groups(user):
 
 def new(user, group_data):
     name = group_data.get('name')
-    usernames = group_data.getlist('users') + [user.username]
-
+    usernames = group_data.get('users').split(',') + [user.username]
     selected_users = User.objects.filter(username__in=usernames).all()
 
     new_group = Group(name=name)
